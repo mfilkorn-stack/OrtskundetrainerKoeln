@@ -18,7 +18,7 @@ function AppContent() {
   const [districts, setDistricts] = useState<GeoJSON.FeatureCollection | null>(null);
 
   useEffect(() => {
-    fetch("/data/districts.geojson")
+    fetch(`${import.meta.env.BASE_URL}data/districts.geojson`)
       .then((res) => res.json())
       .then(setDistricts)
       .catch(() => {});

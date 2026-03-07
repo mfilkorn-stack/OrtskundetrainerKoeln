@@ -1,11 +1,13 @@
 import type { Street, District, StreetCategory, PointOfInterest } from "../types/street";
 import { polylineCenter, getStreetCoordinates } from "../utils/geo";
 
+const base = import.meta.env.BASE_URL;
+
 const DISTRICT_FILES: Record<District, string> = {
-  "altstadt-nord": "/data/streets-altstadt-nord.geojson",
-  "altstadt-sued": "/data/streets-altstadt-sued.geojson",
-  "neustadt-nord": "/data/streets-neustadt-nord.geojson",
-  "neustadt-sued": "/data/streets-neustadt-sued.geojson",
+  "altstadt-nord": `${base}data/streets-altstadt-nord.geojson`,
+  "altstadt-sued": `${base}data/streets-altstadt-sued.geojson`,
+  "neustadt-nord": `${base}data/streets-neustadt-nord.geojson`,
+  "neustadt-sued": `${base}data/streets-neustadt-sued.geojson`,
 };
 
 export async function loadAllStreets(): Promise<Street[]> {
@@ -44,6 +46,6 @@ export async function loadAllStreets(): Promise<Street[]> {
 }
 
 export async function loadPOIs(): Promise<PointOfInterest[]> {
-  const response = await fetch("/data/pois.json");
+  const response = await fetch(`${base}data/pois.json`);
   return response.json();
 }
