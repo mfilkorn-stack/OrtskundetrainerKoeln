@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ortskundetrainer Köln Innenstadt</title>
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        var el = document.getElementById('startup-error');
+        if (el) {
+          el.style.display = 'block';
+          el.querySelector('.error-detail').textContent =
+            (error && error.message ? error.message : msg) +
+            (url ? ' (' + url.split('/').pop() + ':' + line + ')' : '');
+        }
+        return false;
+      };
+    </script>
   </head>
   <body>
+    <div id="startup-error" style="display:none;padding:24px;text-align:center;font-family:sans-serif;">
+      <h2 style="color:#C8102E;">Ladevorgang fehlgeschlagen</h2>
+      <p class="error-detail" style="color:#666;margin:12px 0;font-size:0.9rem;word-break:break-all;"></p>
+      <button onclick="location.reload()" style="padding:10px 20px;background:#C8102E;color:white;border:none;border-radius:8px;cursor:pointer;">Neu laden</button>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
