@@ -20,6 +20,10 @@ const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 const DELAY_MS = 1500;
 const MAX_RETRIES = 3;
 const FORCE = process.argv.includes("--force");
+const FILES_ARG = process.argv.find((a) => a.startsWith("--files="));
+const ONLY_FILES = FILES_ARG
+  ? FILES_ARG.replace("--files=", "").split(",").filter(Boolean)
+  : null;
 
 // Bounding boxes [south, west, north, east] for each district
 const DISTRICT_BBOX = {
@@ -162,13 +166,21 @@ function mergeWays(elements) {
 
 async function main() {
   console.log("Fetching OSM street geometry...");
-  console.log(`Mode: ${FORCE ? "FORCE (re-fetch all)" : "incremental (skip enriched)"}\n`);
+  console.log(`Mode: ${FORCE ? "FORCE (re-fetch all)" : "incremental (skip enriched)"}`);
+  if (ONLY_FILES) {
+    console.log(`Restricted to files: ${ONLY_FILES.join(", ")}`);
+  }
+  console.log();
 
   let totalUpdated = 0;
   let totalSkipped = 0;
   let totalFailed = 0;
 
   for (const { file, district } of FILES) {
+    if (ONLY_FILES && !ONLY_FILES.includes(file)) {
+      console.log(`\n--- ${file} SKIPPED (not in changed files) ---`);
+      continue;
+    }
     const filePath = join(DATA_DIR, file);
     const geojson = JSON.parse(readFileSync(filePath, "utf-8"));
     let updated = 0;

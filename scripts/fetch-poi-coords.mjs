@@ -1,6 +1,19 @@
+#!/usr/bin/env node
+
+/**
+ * Fetches real POI coordinates from OpenStreetMap Overpass API.
+ *
+ * Usage:
+ *   node scripts/fetch-poi-coords.mjs           # only fetch POIs with imprecise/missing coords
+ *   node scripts/fetch-poi-coords.mjs --force    # re-fetch all POIs
+ */
+
 import { readFileSync, writeFileSync } from "fs";
 
 const OVERPASS = "https://overpass-api.de/api/interpreter";
+const DELAY_MS = 2000;
+const MAX_RETRIES = 3;
+const FORCE = process.argv.includes("--force");
 
 // Overpass queries to find each POI
 const queries = {
@@ -19,55 +32,107 @@ const queries = {
   "poi-residenz-am-dom": `[out:json];(way["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);node["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);way["addr:street"="An den Dominikanern"]["amenity"~"nursing_home|social_facility"](50.94,6.95,50.95,6.96););out center;`,
 };
 
-const pois = JSON.parse(readFileSync("public/data/pois.json", "utf-8"));
+/**
+ * Check if a POI has precise coordinates (>= 4 decimal places).
+ * Coordinates with 3 or fewer decimals are considered rough estimates.
+ */
+function hasPreciseCoords(poi) {
+  if (!poi.coordinates || poi.coordinates.length !== 2) return false;
+  const [lat, lon] = poi.coordinates;
+  if (lat === 0 && lon === 0) return false;
+  const latStr = String(lat);
+  const lonStr = String(lon);
+  const latDecimals = latStr.includes(".") ? latStr.split(".")[1].length : 0;
+  const lonDecimals = lonStr.includes(".") ? lonStr.split(".")[1].length : 0;
+  return latDecimals >= 4 && lonDecimals >= 4;
+}
 
-async function queryOverpass(q) {
+async function queryOverpass(q, retries = 0) {
   const res = await fetch(OVERPASS, {
     method: "POST",
     body: "data=" + encodeURIComponent(q),
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
   });
+
+  if (res.status === 429 || res.status >= 500) {
+    if (retries < MAX_RETRIES) {
+      const wait = Math.pow(2, retries + 1) * 1000;
+      console.warn(`  Rate limited, retrying in ${wait / 1000}s...`);
+      await new Promise((r) => setTimeout(r, wait));
+      return queryOverpass(q, retries + 1);
+    }
+    throw new Error(`HTTP ${res.status} after ${MAX_RETRIES} retries`);
+  }
+
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+
   const data = await res.json();
   return data.elements;
 }
 
+const pois = JSON.parse(readFileSync("public/data/pois.json", "utf-8"));
+
+console.log("Fetching POI coordinates from OSM...");
+console.log(`Mode: ${FORCE ? "FORCE (re-fetch all)" : "incremental (skip precise)"}\n`);
+
 let updates = 0;
+let skipped = 0;
+let failed = 0;
+
 for (const [id, q] of Object.entries(queries)) {
+  const poi = pois.find((p) => p.id === id);
+  if (!poi) {
+    console.log(`  ${id}... SKIPPED (not in pois.json)`);
+    skipped++;
+    continue;
+  }
+
+  if (!FORCE && hasPreciseCoords(poi)) {
+    console.log(`  ${id}... SKIPPED (already precise: [${poi.coordinates}])`);
+    skipped++;
+    continue;
+  }
+
+  process.stdout.write(`  ${id}...`);
+
   try {
-    await new Promise(r => setTimeout(r, 2000));
+    await new Promise((r) => setTimeout(r, DELAY_MS));
     const elements = await queryOverpass(q);
     if (elements.length > 0) {
       const el = elements[0];
       const lat = el.center ? el.center.lat : el.lat;
       const lon = el.center ? el.center.lon : el.lon;
-      const poi = pois.find(p => p.id === id);
-      if (poi) {
-        const oldCoords = [...poi.coordinates];
-        poi.coordinates = [parseFloat(lat.toFixed(5)), parseFloat(lon.toFixed(5))];
-        console.log(`✓ ${id}: [${oldCoords}] → [${poi.coordinates}] (${el.tags?.name || ""})`);
-        updates++;
-      }
+      const oldCoords = [...poi.coordinates];
+      poi.coordinates = [parseFloat(lat.toFixed(5)), parseFloat(lon.toFixed(5))];
+      console.log(` OK [${oldCoords}] → [${poi.coordinates}] (${el.tags?.name || ""})`);
+      updates++;
     } else {
-      console.log(`✗ ${id}: no results`);
+      console.log(` NOT FOUND`);
+      failed++;
     }
   } catch (e) {
-    console.log(`✗ ${id}: ${e.message}`);
+    console.log(` ERROR: ${e.message}`);
+    failed++;
   }
 }
 
-writeFileSync("public/data/pois.json", JSON.stringify(pois, null, 2) + "\n");
+console.log(`\n=== TOTAL: ${updates} updated, ${skipped} skipped, ${failed} failed ===`);
 
-// Also update FEUERWACHE_1 constant in street.ts
-const fw = pois.find(p => p.id === "poi-feuerwache1");
-if (fw) {
-  const tsPath = "src/types/street.ts";
-  let ts = readFileSync(tsPath, "utf-8");
-  ts = ts.replace(
-    /coordinates: \[[\d.]+, [\d.]+\] as \[number, number\]/,
-    `coordinates: [${fw.coordinates[0]}, ${fw.coordinates[1]}] as [number, number]`
-  );
-  writeFileSync(tsPath, ts);
-  console.log(`✓ Updated FEUERWACHE_1 in ${tsPath} to [${fw.coordinates}]`);
+if (updates > 0) {
+  writeFileSync("public/data/pois.json", JSON.stringify(pois, null, 2) + "\n");
+
+  // Also update FEUERWACHE_1 constant in street.ts
+  const fw = pois.find((p) => p.id === "poi-feuerwache1");
+  if (fw) {
+    const tsPath = "src/types/street.ts";
+    let ts = readFileSync(tsPath, "utf-8");
+    ts = ts.replace(
+      /coordinates: \[[\d.]+, [\d.]+\] as \[number, number\]/,
+      `coordinates: [${fw.coordinates[0]}, ${fw.coordinates[1]}] as [number, number]`
+    );
+    writeFileSync(tsPath, ts);
+    console.log(`Updated FEUERWACHE_1 in ${tsPath} to [${fw.coordinates}]`);
+  }
+} else {
+  console.log("No updates needed, files unchanged.");
 }
-
-console.log(`\nUpdated ${updates}/${Object.keys(queries).length} POIs`);
