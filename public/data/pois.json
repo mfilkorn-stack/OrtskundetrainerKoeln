@@ -80,9 +80,9 @@
     "id": "poi-oper",
     "name": "Oper Köln",
     "type": "oeffentliches_gebaeude",
-    "district": "altstadt-sued",
+    "district": "altstadt-nord",
     "coordinates": [
-      50.9355,
+      50.9368,
       6.9497
     ],
     "address": "Offenbachplatz"
@@ -146,9 +146,9 @@
     "id": "poi-schauspielhaus",
     "name": "Schauspiel Köln",
     "type": "oeffentliches_gebaeude",
-    "district": "altstadt-sued",
+    "district": "altstadt-nord",
     "coordinates": [
-      50.935,
+      50.9368,
       6.9497
     ],
     "address": "Offenbachplatz"
