@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "an-1", "name": "Komödienstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9565, 50.9401], [6.9555, 50.9395], [6.9543, 50.9389]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-2", "name": "Tunisstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9567, 50.9413], [6.9560, 50.9406], [6.9555, 50.9400]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-3", "name": "Trankgasse", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9575, 50.9420], [6.9568, 50.9415], [6.9560, 50.9410]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-4", "name": "Am Hof", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9568, 50.9395], [6.9575, 50.9390], [6.9582, 50.9385]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-5", "name": "Unter Fettenhennen", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9570, 50.9408], [6.9578, 50.9405], [6.9585, 50.9402]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-6", "name": "Hohe Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9563, 50.9400], [6.9560, 50.9393], [6.9558, 50.9385], [6.9556, 50.9378]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-7", "name": "Schildergasse", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9540, 50.9370], [6.9530, 50.9371], [6.9520, 50.9372]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-8", "name": "Breite Straße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9530, 50.9405], [6.9528, 50.9398], [6.9525, 50.9390], [6.9523, 50.9383]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-9", "name": "Nord-Süd-Fahrt", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9510, 50.9450], [6.9510, 50.9435], [6.9510, 50.9420], [6.9510, 50.9405], [6.9510, 50.9390], [6.9510, 50.9375]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-10", "name": "Cäcilienstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9510, 50.9370], [6.9525, 50.9370], [6.9540, 50.9370]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-11", "name": "Domstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9570, 50.9415], [6.9580, 50.9412], [6.9592, 50.9408]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-12", "name": "An den Dominikanern", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9540, 50.9395], [6.9548, 50.9398], [6.9555, 50.9400]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-13", "name": "Marzellenstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9568, 50.9420], [6.9555, 50.9425], [6.9540, 50.9428], [6.9525, 50.9430]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-14", "name": "Johannisstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9530, 50.9410], [6.9520, 50.9415], [6.9510, 50.9420]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-15", "name": "Gereonstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9510, 50.9425], [6.9500, 50.9430], [6.9490, 50.9435], [6.9478, 50.9440]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-16", "name": "Christophstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9490, 50.9440], [6.9495, 50.9445], [6.9500, 50.9450]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-17", "name": "Eigelstein", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9555, 50.9435], [6.9553, 50.9440], [6.9550, 50.9445], [6.9548, 50.9450]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-18", "name": "Ebertplatz", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9545, 50.9455], [6.9540, 50.9458], [6.9535, 50.9460], [6.9530, 50.9458]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-19", "name": "Theodor-Heuss-Ring", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9540, 50.9458], [6.9560, 50.9460], [6.9580, 50.9462], [6.9600, 50.9465]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-20", "name": "Konrad-Adenauer-Ufer", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9640, 50.9465], [6.9638, 50.9450], [6.9635, 50.9435], [6.9632, 50.9420], [6.9630, 50.9405]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-21", "name": "Burgmauer", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9545, 50.9395], [6.9540, 50.9400], [6.9535, 50.9405]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-22", "name": "Kleine Budengasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9555, 50.9392], [6.9548, 50.9390], [6.9540, 50.9388]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-23", "name": "Große Budengasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9558, 50.9388], [6.9550, 50.9385], [6.9542, 50.9382]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-24", "name": "Minoritenstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9530, 50.9395], [6.9525, 50.9400], [6.9520, 50.9405]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-25", "name": "Kolpingplatz", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9528, 50.9408], [6.9525, 50.9410], [6.9522, 50.9412]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-26", "name": "Brückenstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9580, 50.9388], [6.9585, 50.9385], [6.9590, 50.9382]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-27", "name": "Martinstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9600, 50.9392], [6.9605, 50.9388], [6.9610, 50.9384]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-28", "name": "Am Bollwerk", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9615, 50.9395], [6.9620, 50.9390], [6.9625, 50.9385]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-29", "name": "Auf dem Berlich", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9520, 50.9380], [6.9515, 50.9383], [6.9510, 50.9386]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-30", "name": "Stolkgasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9525, 50.9425], [6.9530, 50.9428], [6.9535, 50.9430]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-31", "name": "Helenenstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9510, 50.9435], [6.9515, 50.9438], [6.9520, 50.9441]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-32", "name": "Ursulagartenstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9505, 50.9440], [6.9510, 50.9443], [6.9515, 50.9446]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-33", "name": "Kardinal-Höffner-Platz", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9575, 50.9412], [6.9578, 50.9414], [6.9580, 50.9416]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-34", "name": "Bechergasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9555, 50.9395], [6.9558, 50.9392], [6.9560, 50.9389]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-35", "name": "Sporergasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9545, 50.9385], [6.9548, 50.9382], [6.9550, 50.9379]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-36", "name": "Laurenzplatz", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9535, 50.9378], [6.9538, 50.9376], [6.9540, 50.9374]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-37", "name": "Obenmarspforten", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9550, 50.9385], [6.9548, 50.9388], [6.9545, 50.9391]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-38", "name": "Große Neugasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9518, 50.9380], [6.9515, 50.9375], [6.9513, 50.9370]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-39", "name": "Steinweg", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9530, 50.9375], [6.9535, 50.9378], [6.9540, 50.9380]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "an-40", "name": "Glockengasse", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9530, 50.9390], [6.9535, 50.9393], [6.9540, 50.9395]] }
+    }
+  ]
+}

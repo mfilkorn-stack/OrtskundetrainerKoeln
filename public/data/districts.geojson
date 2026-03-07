@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Altstadt-Nord", "id": "altstadt-nord" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.9490, 50.9370],
+          [6.9500, 50.9450],
+          [6.9580, 50.9460],
+          [6.9680, 50.9440],
+          [6.9680, 50.9370],
+          [6.9490, 50.9370]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Altstadt-Süd", "id": "altstadt-sued" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.9440, 50.9260],
+          [6.9440, 50.9370],
+          [6.9680, 50.9370],
+          [6.9680, 50.9280],
+          [6.9600, 50.9260],
+          [6.9440, 50.9260]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Neustadt-Nord", "id": "neustadt-nord" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.9300, 50.9370],
+          [6.9300, 50.9500],
+          [6.9490, 50.9500],
+          [6.9500, 50.9450],
+          [6.9490, 50.9370],
+          [6.9300, 50.9370]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Neustadt-Süd", "id": "neustadt-sued" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.9200, 50.9160],
+          [6.9200, 50.9370],
+          [6.9440, 50.9370],
+          [6.9440, 50.9260],
+          [6.9380, 50.9160],
+          [6.9200, 50.9160]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents } from "react-leaflet";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { toLeafletCoords, getStreetCoordinates } from "../../utils/geo";
+import type { Street, PointOfInterest } from "../../types/street";
+
+// Fix default marker icons
+import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+delete (L.Icon.Default.prototype as any)._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: markerIcon2x,
+  iconUrl: markerIcon,
+  shadowUrl: markerShadow,
+});
+
+const COLOGNE_CENTER: [number, number] = [50.9375, 6.9553];
+const BOUNDS: L.LatLngBoundsExpression = [
+  [50.915, 6.915],
+  [50.955, 6.975],
+];
+
+const greenIcon = new L.Icon({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon2x,
+  shadowUrl: markerShadow,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  className: "marker-green",
+});
+
+const redIcon = new L.Icon({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon2x,
+  shadowUrl: markerShadow,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  className: "marker-red",
+});
+
+interface QuizMapProps {
+  highlightStreet?: Street | null;
+  highlightColor?: string;
+  showCorrectStreet?: Street | null;
+  userMarker?: [number, number] | null;
+  onMapClick?: (latlng: [number, number]) => void;
+  routeStart?: [number, number] | null;
+  routeEnd?: [number, number] | null;
+  routeLine?: [number, number][] | null;
+  poi?: PointOfInterest | null;
+  districts?: GeoJSON.FeatureCollection | null;
+}
+
+function MapClickHandler({ onClick }: { onClick: (latlng: [number, number]) => void }) {
+  useMapEvents({
+    click(e) {
+      onClick([e.latlng.lat, e.latlng.lng]);
+    },
+  });
+  return null;
+}
+
+export function QuizMap({
+  highlightStreet,
+  highlightColor = "#C8102E",
+  showCorrectStreet,
+  userMarker,
+  onMapClick,
+  routeStart,
+  routeEnd,
+  routeLine,
+  poi,
+  districts,
+}: QuizMapProps) {
+  return (
+    <div className="map-container">
+      <MapContainer
+        center={COLOGNE_CENTER}
+        zoom={15}
+        minZoom={13}
+        maxZoom={18}
+        maxBounds={BOUNDS}
+        maxBoundsViscosity={1.0}
+        style={{ height: "100%", width: "100%" }}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+
+        {districts && (
+          <GeoJSON
+            data={districts}
+            style={() => ({
+              color: "#666",
+              weight: 2,
+              opacity: 0.4,
+              fillOpacity: 0.05,
+              dashArray: "5,5",
+            })}
+          />
+        )}
+
+        {highlightStreet && (
+          <Polyline
+            positions={toLeafletCoords(getStreetCoordinates(highlightStreet.geometry))}
+            pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
+          />
+        )}
+
+        {showCorrectStreet && (
+          <Polyline
+            positions={toLeafletCoords(getStreetCoordinates(showCorrectStreet.geometry))}
+            pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}
+          />
+        )}
+
+        {userMarker && (
+          <Marker position={userMarker}>
+            <Popup>Dein Tipp</Popup>
+          </Marker>
+        )}
+
+        {routeStart && (
+          <Marker position={routeStart} icon={greenIcon}>
+            <Popup>Start</Popup>
+          </Marker>
+        )}
+
+        {routeEnd && (
+          <Marker position={routeEnd} icon={redIcon}>
+            <Popup>Ziel</Popup>
+          </Marker>
+        )}
+
+        {routeLine && (
+          <Polyline
+            positions={routeLine}
+            pathOptions={{ color: "#1565c0", weight: 5, opacity: 0.7, dashArray: "10,6" }}
+          />
+        )}
+
+        {poi && (
+          <Marker position={poi.coordinates}>
+            <Popup>
+              <strong>{poi.name}</strong>
+              {poi.address && <br />}
+              {poi.address}
+            </Popup>
+          </Marker>
+        )}
+
+        {onMapClick && <MapClickHandler onClick={onMapClick} />}
+      </MapContainer>
+    </div>
+  );
+}

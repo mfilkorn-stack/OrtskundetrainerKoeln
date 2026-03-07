@@ -1,0 +1,162 @@
+[
+  {
+    "id": "poi-uniklinik",
+    "name": "Uniklinik Köln (Notaufnahme)",
+    "type": "krankenhaus",
+    "district": "neustadt-sued",
+    "coordinates": [50.9246, 6.9209],
+    "address": "Kerpener Str. 62"
+  },
+  {
+    "id": "poi-eduardus",
+    "name": "Eduardus-Krankenhaus",
+    "type": "krankenhaus",
+    "district": "neustadt-sued",
+    "coordinates": [50.9178, 6.9467],
+    "address": "Custodisstraße 3-17"
+  },
+  {
+    "id": "poi-antonius",
+    "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
+    "type": "krankenhaus",
+    "district": "altstadt-sued",
+    "coordinates": [50.9275, 6.9590],
+    "address": "Jakobstraße 27-31"
+  },
+  {
+    "id": "poi-st-maria-hilf",
+    "name": "Klinik St. Maria-Hilf",
+    "type": "krankenhaus",
+    "district": "altstadt-sued",
+    "coordinates": [50.9290, 6.9510],
+    "address": "Am Klapperhof 22"
+  },
+  {
+    "id": "poi-rathaus",
+    "name": "Historisches Rathaus",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9380, 6.9592],
+    "address": "Rathausplatz 2"
+  },
+  {
+    "id": "poi-polizei-waidmarkt",
+    "name": "Polizeipräsidium Köln",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-sued",
+    "coordinates": [50.9318, 6.9575],
+    "address": "Waidmarkt 11"
+  },
+  {
+    "id": "poi-feuerwache1",
+    "name": "Feuerwache 1 (Innenstadt)",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-sued",
+    "coordinates": [50.9333, 6.9456],
+    "address": "Agrippastraße 18"
+  },
+  {
+    "id": "poi-dom",
+    "name": "Kölner Dom",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9413, 6.9583],
+    "address": "Domkloster 4"
+  },
+  {
+    "id": "poi-hbf",
+    "name": "Köln Hauptbahnhof",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9430, 6.9589],
+    "address": "Trankgasse 11"
+  },
+  {
+    "id": "poi-museum-ludwig",
+    "name": "Museum Ludwig",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9405, 6.9620],
+    "address": "Heinrich-Böll-Platz"
+  },
+  {
+    "id": "poi-oper",
+    "name": "Oper Köln (Staatenhaus)",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-nord",
+    "coordinates": [50.9425, 6.9650],
+    "address": "Rheinparkweg 1"
+  },
+  {
+    "id": "poi-bezirksrathaus",
+    "name": "Bezirksrathaus Innenstadt",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9392, 6.9545],
+    "address": "Laurenzplatz 1-3"
+  },
+  {
+    "id": "poi-stadthaus-deutz",
+    "name": "Stadthaus (Verwaltung)",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9370, 6.9570],
+    "address": "Alter Markt"
+  },
+  {
+    "id": "poi-altenheim-severinswall",
+    "name": "Seniorenzentrum Severinswall",
+    "type": "altenheim",
+    "district": "altstadt-sued",
+    "coordinates": [50.9270, 6.9530],
+    "address": "Severinswall 33"
+  },
+  {
+    "id": "poi-altenheim-kartause",
+    "name": "Kartäuserhaus (Seniorenheim)",
+    "type": "altenheim",
+    "district": "neustadt-sued",
+    "coordinates": [50.9240, 6.9480],
+    "address": "Kartäuserwall 7"
+  },
+  {
+    "id": "poi-altenheim-chlodwig",
+    "name": "AWO Seniorenzentrum Chlodwigplatz",
+    "type": "altenheim",
+    "district": "neustadt-sued",
+    "coordinates": [50.9215, 6.9540],
+    "address": "Chlodwigplatz 20"
+  },
+  {
+    "id": "poi-altenheim-neustadt",
+    "name": "Caritas Altenzentrum Neustadt",
+    "type": "altenheim",
+    "district": "neustadt-nord",
+    "coordinates": [50.9430, 6.9400],
+    "address": "Hansaring 60"
+  },
+  {
+    "id": "poi-gericht",
+    "name": "Amtsgericht Köln",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9395, 6.9520],
+    "address": "Luxemburger Str. 101"
+  },
+  {
+    "id": "poi-sparkasse",
+    "name": "Kreissparkasse Köln (Hauptstelle)",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [50.9378, 6.9555],
+    "address": "Hahnenstraße 57"
+  },
+  {
+    "id": "poi-schauspielhaus",
+    "name": "Schauspiel Köln",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-sued",
+    "coordinates": [50.9300, 6.9490],
+    "address": "Offenbachplatz"
+  }
+]

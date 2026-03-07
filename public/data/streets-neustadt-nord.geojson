@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-1", "name": "Hohenzollernring", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9420, 50.9400], [6.9430, 50.9410], [6.9440, 50.9420], [6.9450, 50.9430], [6.9458, 50.9440]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-2", "name": "Hansaring", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9458, 50.9440], [6.9468, 50.9448], [6.9480, 50.9455], [6.9500, 50.9458], [6.9520, 50.9460]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-3", "name": "Christophstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9478, 50.9440], [6.9485, 50.9445], [6.9492, 50.9450]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-4", "name": "Habsburgerring", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9410, 50.9390], [6.9415, 50.9395], [6.9420, 50.9400]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-5", "name": "Rudolfplatz", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9382], [6.9400, 50.9385], [6.9408, 50.9388], [6.9415, 50.9390]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-6", "name": "Aachener Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9350, 50.9378], [6.9365, 50.9380], [6.9380, 50.9381], [6.9395, 50.9382]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-7", "name": "Venloer Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9350, 50.9445], [6.9370, 50.9442], [6.9390, 50.9440], [6.9410, 50.9438], [6.9430, 50.9435]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-8", "name": "Ehrenstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9430, 50.9395], [6.9440, 50.9398], [6.9450, 50.9400], [6.9460, 50.9402]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-9", "name": "Friesenstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9445, 50.9420], [6.9455, 50.9418], [6.9465, 50.9416], [6.9475, 50.9414]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-10", "name": "Friesenplatz", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9438, 50.9418], [6.9442, 50.9420], [6.9445, 50.9422]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-11", "name": "Mediapark", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9408, 50.9448], [6.9415, 50.9452], [6.9422, 50.9455], [6.9430, 50.9458]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-12", "name": "Innere Kanalstraße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9365, 50.9475], [6.9375, 50.9470], [6.9385, 50.9465], [6.9395, 50.9460], [6.9408, 50.9455]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-13", "name": "Subbelrather Straße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9350, 50.9468], [6.9370, 50.9465], [6.9390, 50.9462], [6.9410, 50.9458]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-14", "name": "Kyotostraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9450], [6.9400, 50.9455], [6.9405, 50.9460]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-15", "name": "Gladbacher Straße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9365, 50.9460], [6.9375, 50.9462], [6.9385, 50.9465]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-16", "name": "Bismarckstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9420, 50.9405], [6.9418, 50.9410], [6.9415, 50.9415], [6.9412, 50.9420]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-17", "name": "Brüsseler Straße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9385, 50.9395], [6.9382, 50.9400], [6.9380, 50.9405], [6.9378, 50.9410]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-18", "name": "Brabanter Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9390, 50.9408], [6.9395, 50.9412], [6.9400, 50.9416]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-19", "name": "Antwerpener Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9378, 50.9415], [6.9382, 50.9420], [6.9385, 50.9425]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-20", "name": "Maastrichter Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9395], [6.9398, 50.9400], [6.9400, 50.9405]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-21", "name": "Händelstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9410, 50.9412], [6.9408, 50.9418], [6.9405, 50.9422]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-22", "name": "Roonstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9405, 50.9388], [6.9400, 50.9393], [6.9395, 50.9398]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-23", "name": "Spichernstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9418, 50.9395], [6.9415, 50.9400], [6.9412, 50.9405]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-24", "name": "Flandrische Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9405, 50.9425], [6.9408, 50.9430], [6.9410, 50.9435]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-25", "name": "Lindenstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9430, 50.9408], [6.9435, 50.9412], [6.9440, 50.9416]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-26", "name": "Heliosstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9370, 50.9450], [6.9375, 50.9455], [6.9380, 50.9460]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-27", "name": "Vogelsanger Straße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9350, 50.9415], [6.9365, 50.9413], [6.9380, 50.9410]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-28", "name": "Lübecker Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9420, 50.9445], [6.9425, 50.9450], [6.9430, 50.9455]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-29", "name": "Kamekestraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9442, 50.9435], [6.9445, 50.9440], [6.9448, 50.9445]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "nn-30", "name": "Magnusstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9460, 50.9430], [6.9465, 50.9435], [6.9470, 50.9440]] }
+    }
+  ]
+}

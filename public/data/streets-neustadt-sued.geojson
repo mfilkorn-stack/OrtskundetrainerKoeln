@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-1", "name": "Zülpicher Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9380], [6.9388, 50.9375], [6.9380, 50.9370], [6.9372, 50.9365], [6.9365, 50.9358]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-2", "name": "Luxemburger Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9410, 50.9360], [6.9405, 50.9352], [6.9400, 50.9345], [6.9395, 50.9338], [6.9390, 50.9330]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-3", "name": "Barbarossaplatz", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9408, 50.9365], [6.9412, 50.9362], [6.9415, 50.9358], [6.9412, 50.9355], [6.9408, 50.9352]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-4", "name": "Salierring", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9415, 50.9358], [6.9425, 50.9350], [6.9435, 50.9342], [6.9445, 50.9335], [6.9455, 50.9328]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-5", "name": "Ubierring", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9460, 50.9322], [6.9470, 50.9318], [6.9480, 50.9314], [6.9490, 50.9310], [6.9500, 50.9308]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-6", "name": "Bonner Straße", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9498, 50.9305], [6.9495, 50.9298], [6.9492, 50.9290], [6.9490, 50.9282], [6.9488, 50.9275]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-7", "name": "Vorgebirgsstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9468, 50.9320], [6.9462, 50.9312], [6.9455, 50.9305], [6.9448, 50.9298]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-8", "name": "Chlodwigplatz", "highway": "primary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9490, 50.9308], [6.9495, 50.9305], [6.9500, 50.9302], [6.9505, 50.9300]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-9", "name": "Ulrepforte", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9448, 50.9330], [6.9445, 50.9325], [6.9442, 50.9320]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-10", "name": "Dasselstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9410, 50.9345], [6.9415, 50.9340], [6.9420, 50.9335], [6.9425, 50.9330]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-11", "name": "Rolandstraße", "highway": "secondary", "category": "hauptverkehr" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9400, 50.9350], [6.9405, 50.9345], [6.9410, 50.9340]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-12", "name": "Beethovenstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9370], [6.9398, 50.9365], [6.9400, 50.9360]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-13", "name": "Roonstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9395, 50.9385], [6.9398, 50.9380], [6.9400, 50.9375], [6.9402, 50.9370]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-14", "name": "Lindenstraße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9432, 50.9400], [6.9435, 50.9392], [6.9438, 50.9385]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-15", "name": "Eifelstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9380, 50.9360], [6.9375, 50.9355], [6.9370, 50.9350]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-16", "name": "Teutoburger Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9385, 50.9352], [6.9380, 50.9348], [6.9375, 50.9342]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-17", "name": "Alteburger Straße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9470, 50.9320], [6.9465, 50.9315], [6.9460, 50.9308], [6.9455, 50.9300]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-18", "name": "Elsaßstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9420, 50.9348], [6.9418, 50.9342], [6.9415, 50.9336]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-19", "name": "Lothringer Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9428, 50.9345], [6.9425, 50.9340], [6.9422, 50.9335]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-20", "name": "Moselstraße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9435, 50.9340], [6.9432, 50.9335], [6.9430, 50.9328]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-21", "name": "Zugweg", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9455, 50.9325], [6.9450, 50.9320], [6.9445, 50.9315]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-22", "name": "Mainzer Straße", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9440, 50.9335], [6.9438, 50.9328], [6.9435, 50.9320], [6.9432, 50.9312]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-23", "name": "Merowinger Straße", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9398, 50.9340], [6.9395, 50.9335], [6.9392, 50.9328]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-24", "name": "An der Bottmühle", "highway": "residential", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9478, 50.9318], [6.9475, 50.9315], [6.9472, 50.9310]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-25", "name": "Severinswall", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9510, 50.9335], [6.9505, 50.9328], [6.9500, 50.9320], [6.9498, 50.9312]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "ns-26", "name": "Kartäuserwall", "highway": "tertiary", "category": "sonstige" },
+      "geometry": { "type": "LineString", "coordinates": [[6.9485, 50.9340], [6.9480, 50.9335], [6.9475, 50.9328], [6.9470, 50.9322]] }
+    }
+  ]
+}
