@@ -9,9 +9,9 @@ on:
         default: "false"
         type: boolean
       branch:
-        description: "Branch to run on (default: main)"
+        description: "Branch to run on (default: current branch)"
         required: false
-        default: "main"
+        default: ""
         type: string
   push:
     branches: [main]
