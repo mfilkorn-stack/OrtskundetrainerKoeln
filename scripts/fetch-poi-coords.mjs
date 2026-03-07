@@ -27,9 +27,19 @@ const queries = {
   "poi-museum-ludwig": `[out:json];way["name"="Museum Ludwig"](50.93,6.96,50.95,6.97);out center;`,
   "poi-bezirksrathaus": `[out:json];way["name"~"Bezirksrathaus"]["addr:street"~"Laurenz"](50.93,6.95,50.94,6.96);out center;`,
   "poi-gericht": `[out:json];(way["name"~"Verwaltungsgericht"](50.93,6.94,50.94,6.96);way["amenity"="courthouse"]["addr:street"~"Appellhofplatz"](50.93,6.94,50.94,6.96););out center;`,
-  "poi-st-marien": `[out:json];(way["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97);node["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97););out center;`,
+  "poi-st-marien": `[out:json];(way["name"~"Marien|Cellitinnen"]["amenity"="hospital"](50.94,6.95,50.95,6.97);way["addr:street"="Kunibertskloster"]["amenity"="hospital"](50.94,6.95,50.95,6.97);node["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97););out center;`,
   "poi-seniorenhaus-st-maria": `[out:json];(way["name"~"St. Maria"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96);node["name"~"St. Maria"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96);way["addr:street"="Schwalbengasse"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96););out center;`,
   "poi-residenz-am-dom": `[out:json];(way["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);node["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);way["addr:street"="An den Dominikanern"]["amenity"~"nursing_home|social_facility"](50.94,6.95,50.95,6.96););out center;`,
+  "poi-st-maria-hilf": `[out:json];(way["name"~"Maria.Hilf"]["amenity"="hospital"](50.92,6.94,50.94,6.96);way["addr:street"="Am Klapperhof"]["amenity"~"hospital|clinic"](50.92,6.94,50.94,6.96););out center;`,
+  "poi-hbf": `[out:json];node["name"="Köln Hauptbahnhof"]["railway"="station"](50.94,6.95,50.95,6.97);out;`,
+  "poi-museum-ludwig": `[out:json];way["name"="Museum Ludwig"](50.93,6.95,50.95,6.97);out center;`,
+  "poi-oper": `[out:json];(way["name"~"Staatenhaus"](50.93,6.96,50.95,6.97);way["name"~"Oper Köln"](50.93,6.94,50.95,6.97););out center;`,
+  "poi-stadthaus-deutz": `[out:json];(way["name"~"Stadthaus"]["addr:street"~"Alter Markt|Deutzer"](50.93,6.95,50.94,6.97);way["name"~"Spanischer Bau"](50.93,6.95,50.94,6.97););out center;`,
+  "poi-altenheim-severinswall": `[out:json];(way["addr:street"="Severinswall"]["amenity"~"nursing_home|social_facility"](50.92,6.95,50.93,6.96);node["addr:street"="Severinswall"]["amenity"~"nursing_home|social_facility"](50.92,6.95,50.93,6.96););out center;`,
+  "poi-altenheim-kartause": `[out:json];(way["name"~"Kartäuser"]["amenity"~"nursing_home|social_facility"](50.92,6.94,50.93,6.95);node["addr:street"~"Kartäuserwall"]["amenity"~"nursing_home|social_facility"](50.92,6.94,50.93,6.95);way["addr:street"~"Kartäuserwall"](50.92,6.94,50.93,6.95););out center;`,
+  "poi-altenheim-chlodwig": `[out:json];(way["addr:street"~"Chlodwigplatz"]["amenity"~"nursing_home|social_facility"](50.92,6.95,50.93,6.96);node["addr:street"~"Chlodwigplatz"]["amenity"~"nursing_home|social_facility"](50.92,6.95,50.93,6.96););out center;`,
+  "poi-altenheim-neustadt": `[out:json];(way["addr:street"="Hansaring"]["amenity"~"nursing_home|social_facility"](50.94,6.93,50.95,6.95);node["addr:street"="Hansaring"]["amenity"~"nursing_home|social_facility"](50.94,6.93,50.95,6.95););out center;`,
+  "poi-schauspielhaus": `[out:json];(way["name"~"Schauspiel"]["amenity"~"theatre"](50.92,6.94,50.94,6.96);way["name"~"Offenbachplatz"](50.92,6.94,50.94,6.96););out center;`,
 };
 
 /**
