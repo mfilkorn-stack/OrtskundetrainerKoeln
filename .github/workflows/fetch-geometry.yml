@@ -1,0 +1,27 @@
+name: Fetch OSM Street Geometry
+
+on:
+  workflow_dispatch: # Manual trigger from GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch street geometry from Overpass API
+        run: node scripts/fetch-osm-geometry.mjs
+
+      - name: Commit updated GeoJSON files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/streets-*.geojson
+          git diff --cached --quiet || git commit -m "data: update street geometry with real OSM coordinates"
+          git push
