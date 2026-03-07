@@ -60,6 +60,8 @@ interface QuizMapProps {
   onMapClick?: (latlng: [number, number]) => void;
   routeStart?: [number, number] | null;
   routeEnd?: [number, number] | null;
+  routeStartLabel?: string;
+  routeEndLabel?: string;
   routeLine?: [number, number][] | null;
   poi?: PointOfInterest | null;
   districts?: GeoJSON.FeatureCollection | null;
@@ -82,6 +84,8 @@ export function QuizMap({
   onMapClick,
   routeStart,
   routeEnd,
+  routeStartLabel,
+  routeEndLabel,
   routeLine,
   poi,
   districts,
@@ -137,13 +141,13 @@ export function QuizMap({
 
         {routeStart && (
           <Marker position={routeStart} icon={greenIcon}>
-            <Popup>Start</Popup>
+            <Popup>{routeStartLabel ?? "Start"}</Popup>
           </Marker>
         )}
 
         {routeEnd && (
           <Marker position={routeEnd} icon={redIcon}>
-            <Popup>Ziel</Popup>
+            <Popup>{routeEndLabel ?? "Ziel"}</Popup>
           </Marker>
         )}
 
