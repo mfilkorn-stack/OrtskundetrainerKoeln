@@ -30,7 +30,7 @@ const DISTRICT_BBOX = {
   "altstadt-nord": [50.933, 6.938, 50.950, 6.968],
   "altstadt-sued": [50.918, 6.933, 50.940, 50.968],
   "neustadt-nord": [50.933, 6.918, 50.957, 6.948],
-  "neustadt-sued": [50.918, 6.918, 50.942, 6.948],
+  "neustadt-sued": [50.910, 6.918, 50.942, 6.970],
 };
 
 // Fix: altstadt-sued east bound was wrong (50.968 instead of 6.968)
