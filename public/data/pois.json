@@ -33,17 +33,6 @@
     "address": "Rathausplatz 2"
   },
   {
-    "id": "poi-polizei-waidmarkt",
-    "name": "Polizeipräsidium Köln",
-    "type": "oeffentliches_gebaeude",
-    "district": "altstadt-sued",
-    "coordinates": [
-      50.9318,
-      6.9575
-    ],
-    "address": "Waidmarkt 11"
-  },
-  {
     "id": "poi-feuerwache1",
     "name": "Feuerwache 1 (Innenstadt)",
     "type": "oeffentliches_gebaeude",
