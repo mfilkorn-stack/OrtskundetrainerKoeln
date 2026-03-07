@@ -23,8 +23,6 @@ const queries = {
   "poi-rathaus": `[out:json];way["name"="Historisches Rathaus"](50.93,6.95,50.94,6.97);out center;`,
   "poi-polizei-waidmarkt": `[out:json];way["name"~"Polizeipräsidium"](50.93,6.95,50.94,6.96);out center;`,
   "poi-dom": `[out:json];way["name"="Kölner Dom"](50.93,6.95,50.95,6.97);out center;`,
-  "poi-hbf": `[out:json];node["name"="Köln Hauptbahnhof"]["railway"="station"](50.94,6.95,50.95,6.97);out;`,
-  "poi-museum-ludwig": `[out:json];way["name"="Museum Ludwig"](50.93,6.96,50.95,6.97);out center;`,
   "poi-bezirksrathaus": `[out:json];way["name"~"Bezirksrathaus"]["addr:street"~"Laurenz"](50.93,6.95,50.94,6.96);out center;`,
   "poi-gericht": `[out:json];(way["name"~"Verwaltungsgericht"](50.93,6.94,50.94,6.96);way["amenity"="courthouse"]["addr:street"~"Appellhofplatz"](50.93,6.94,50.94,6.96););out center;`,
   "poi-st-marien": `[out:json];(way["name"~"Marien|Cellitinnen"]["amenity"="hospital"](50.94,6.95,50.95,6.97);way["addr:street"="Kunibertskloster"]["amenity"="hospital"](50.94,6.95,50.95,6.97);node["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97););out center;`,
