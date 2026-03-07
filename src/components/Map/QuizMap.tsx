@@ -27,24 +27,26 @@ const BOUNDS: L.LatLngBoundsExpression = [
   [50.955, 6.975],
 ];
 
+function coloredMarkerSvg(color: string) {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41"><path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 2.4.7 4.6 1.9 6.5L12.5 41l10.6-22c1.2-1.9 1.9-4.1 1.9-6.5C25 5.6 19.4 0 12.5 0z" fill="${color}" stroke="#fff" stroke-width="1.5"/><circle cx="12.5" cy="12.5" r="5" fill="#fff"/></svg>`)}`;
+}
+
 let greenIcon: L.Icon;
 let redIcon: L.Icon;
 try {
   greenIcon = new L.Icon({
-    iconUrl: markerIcon,
-    iconRetinaUrl: markerIcon2x,
+    iconUrl: coloredMarkerSvg("#2e7d32"),
     shadowUrl: markerShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
-    className: "marker-green",
+    popupAnchor: [1, -34],
   });
   redIcon = new L.Icon({
-    iconUrl: markerIcon,
-    iconRetinaUrl: markerIcon2x,
+    iconUrl: coloredMarkerSvg("#C8102E"),
     shadowUrl: markerShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
-    className: "marker-red",
+    popupAnchor: [1, -34],
   });
 } catch (e) {
   console.warn("Leaflet custom icon init failed:", e);
