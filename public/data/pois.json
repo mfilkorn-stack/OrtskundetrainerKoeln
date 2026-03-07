@@ -4,7 +4,10 @@
     "name": "Uniklinik Köln (Notaufnahme)",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [50.9246, 6.9209],
+    "coordinates": [
+      50.9246,
+      6.9209
+    ],
     "address": "Kerpener Str. 62"
   },
   {
@@ -12,7 +15,10 @@
     "name": "Eduardus-Krankenhaus",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [50.9178, 6.9467],
+    "coordinates": [
+      50.9178,
+      6.9467
+    ],
     "address": "Custodisstraße 3-17"
   },
   {
@@ -20,7 +26,10 @@
     "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
     "type": "krankenhaus",
     "district": "altstadt-sued",
-    "coordinates": [50.9275, 6.9590],
+    "coordinates": [
+      50.92487,
+      6.95702
+    ],
     "address": "Jakobstraße 27-31"
   },
   {
@@ -28,7 +37,10 @@
     "name": "Klinik St. Maria-Hilf",
     "type": "krankenhaus",
     "district": "altstadt-sued",
-    "coordinates": [50.9290, 6.9510],
+    "coordinates": [
+      50.929,
+      6.951
+    ],
     "address": "Am Klapperhof 22"
   },
   {
@@ -36,7 +48,10 @@
     "name": "Historisches Rathaus",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9380, 6.9592],
+    "coordinates": [
+      50.93801,
+      6.95926
+    ],
     "address": "Rathausplatz 2"
   },
   {
@@ -44,7 +59,10 @@
     "name": "Polizeipräsidium Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.9318, 6.9575],
+    "coordinates": [
+      50.9318,
+      6.9575
+    ],
     "address": "Waidmarkt 11"
   },
   {
@@ -52,7 +70,10 @@
     "name": "Feuerwache 1 (Innenstadt)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.9333, 6.9456],
+    "coordinates": [
+      50.9333,
+      6.9456
+    ],
     "address": "Agrippastraße 18"
   },
   {
@@ -60,7 +81,10 @@
     "name": "Kölner Dom",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9413, 6.9583],
+    "coordinates": [
+      50.9413,
+      6.9583
+    ],
     "address": "Domkloster 4"
   },
   {
@@ -68,7 +92,10 @@
     "name": "Köln Hauptbahnhof",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9430, 6.9589],
+    "coordinates": [
+      50.943,
+      6.9589
+    ],
     "address": "Trankgasse 11"
   },
   {
@@ -76,7 +103,10 @@
     "name": "Museum Ludwig",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9405, 6.9620],
+    "coordinates": [
+      50.9405,
+      6.962
+    ],
     "address": "Heinrich-Böll-Platz"
   },
   {
@@ -84,7 +114,10 @@
     "name": "Oper Köln (Staatenhaus)",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-nord",
-    "coordinates": [50.9425, 6.9650],
+    "coordinates": [
+      50.9425,
+      6.965
+    ],
     "address": "Rheinparkweg 1"
   },
   {
@@ -92,7 +125,10 @@
     "name": "Bezirksrathaus Innenstadt",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9392, 6.9545],
+    "coordinates": [
+      50.9392,
+      6.9545
+    ],
     "address": "Laurenzplatz 1-3"
   },
   {
@@ -100,7 +136,10 @@
     "name": "Stadthaus (Verwaltung)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9370, 6.9570],
+    "coordinates": [
+      50.937,
+      6.957
+    ],
     "address": "Alter Markt"
   },
   {
@@ -108,7 +147,10 @@
     "name": "Seniorenzentrum Severinswall",
     "type": "altenheim",
     "district": "altstadt-sued",
-    "coordinates": [50.9270, 6.9530],
+    "coordinates": [
+      50.927,
+      6.953
+    ],
     "address": "Severinswall 33"
   },
   {
@@ -116,7 +158,10 @@
     "name": "Kartäuserhaus (Seniorenheim)",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.9240, 6.9480],
+    "coordinates": [
+      50.924,
+      6.948
+    ],
     "address": "Kartäuserwall 7"
   },
   {
@@ -124,7 +169,10 @@
     "name": "AWO Seniorenzentrum Chlodwigplatz",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.9215, 6.9540],
+    "coordinates": [
+      50.9215,
+      6.954
+    ],
     "address": "Chlodwigplatz 20"
   },
   {
@@ -132,7 +180,10 @@
     "name": "Caritas Altenzentrum Neustadt",
     "type": "altenheim",
     "district": "neustadt-nord",
-    "coordinates": [50.9430, 6.9400],
+    "coordinates": [
+      50.943,
+      6.94
+    ],
     "address": "Hansaring 60"
   },
   {
@@ -140,7 +191,10 @@
     "name": "Amtsgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9395, 6.9520],
+    "coordinates": [
+      50.9395,
+      6.952
+    ],
     "address": "Luxemburger Str. 101"
   },
   {
@@ -148,7 +202,10 @@
     "name": "Kreissparkasse Köln (Hauptstelle)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9378, 6.9555],
+    "coordinates": [
+      50.9378,
+      6.9555
+    ],
     "address": "Hahnenstraße 57"
   },
   {
@@ -156,7 +213,10 @@
     "name": "Schauspiel Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.9300, 6.9490],
+    "coordinates": [
+      50.93,
+      6.949
+    ],
     "address": "Offenbachplatz"
   }
 ]
