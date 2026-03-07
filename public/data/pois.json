@@ -5,8 +5,8 @@
     "type": "krankenhaus",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9246,
-      6.9209
+      50.9252,
+      6.9193
     ],
     "address": "Kerpener Str. 62"
   },
@@ -60,8 +60,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9311,
-      6.9501
+      50.93375,
+      6.95388
     ],
     "address": "Agrippastraße 18"
   },
@@ -71,8 +71,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9413,
-      6.9583
+      50.94131,
+      6.95811
     ],
     "address": "Domkloster 4"
   },
@@ -82,8 +82,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.943,
-      6.9589
+      50.94278,
+      6.95907
     ],
     "address": "Trankgasse 11"
   },
@@ -214,8 +214,8 @@
     "type": "krankenhaus",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9455,
-      6.961
+      50.94751,
+      6.96221
     ],
     "address": "Kunibertskloster 11-13"
   },
@@ -236,8 +236,8 @@
     "type": "altenheim",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9426,
-      6.9555
+      50.94319,
+      6.95414
     ],
     "address": "An den Dominikanern 6-8"
   }
