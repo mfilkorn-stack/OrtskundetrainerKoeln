@@ -2893,7 +2893,7 @@
       "type": "Feature",
       "properties": {
         "id": "ns-7",
-        "name": "Vorgebirgsstraße",
+        "name": "Vorgebirgstraße",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -6371,7 +6371,7 @@
       "type": "Feature",
       "properties": {
         "id": "ns-23",
-        "name": "Merowinger Straße",
+        "name": "Merowingerstraße",
         "highway": "residential",
         "category": "sonstige"
       },
