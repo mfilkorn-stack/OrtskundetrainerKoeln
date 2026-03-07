@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { toLeafletCoords, getStreetCoordinates } from "../../utils/geo";
+import { toLeafletPositions } from "../../utils/geo";
 import type { Street, PointOfInterest } from "../../types/street";
 
 // Fix default marker icons
@@ -117,14 +117,14 @@ export function QuizMap({
 
         {highlightStreet && highlightStreet.geometry && (
           <Polyline
-            positions={toLeafletCoords(getStreetCoordinates(highlightStreet.geometry))}
+            positions={toLeafletPositions(highlightStreet.geometry)}
             pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
           />
         )}
 
         {showCorrectStreet && showCorrectStreet.geometry && (
           <Polyline
-            positions={toLeafletCoords(getStreetCoordinates(showCorrectStreet.geometry))}
+            positions={toLeafletPositions(showCorrectStreet.geometry)}
             pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}
           />
         )}
