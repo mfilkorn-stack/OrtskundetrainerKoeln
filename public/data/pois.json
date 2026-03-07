@@ -11,17 +11,6 @@
     "address": "Kerpener Str. 62"
   },
   {
-    "id": "poi-eduardus",
-    "name": "Eduardus-Krankenhaus",
-    "type": "krankenhaus",
-    "district": "neustadt-sued",
-    "coordinates": [
-      50.9178,
-      6.9467
-    ],
-    "address": "Custodisstraße 3-17"
-  },
-  {
     "id": "poi-antonius",
     "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
     "type": "krankenhaus",
