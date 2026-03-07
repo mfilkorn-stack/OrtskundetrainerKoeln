@@ -13,7 +13,10 @@ const queries = {
   "poi-hbf": `[out:json];node["name"="Köln Hauptbahnhof"]["railway"="station"](50.94,6.95,50.95,6.97);out;`,
   "poi-museum-ludwig": `[out:json];way["name"="Museum Ludwig"](50.93,6.96,50.95,6.97);out center;`,
   "poi-bezirksrathaus": `[out:json];way["name"~"Bezirksrathaus"]["addr:street"~"Laurenz"](50.93,6.95,50.94,6.96);out center;`,
-  "poi-gericht": `[out:json];way["name"~"Amtsgericht"]["addr:street"~"Luxemburger"](50.93,6.93,50.94,6.96);out center;`,
+  "poi-gericht": `[out:json];(way["name"~"Verwaltungsgericht"](50.93,6.94,50.94,6.96);way["amenity"="courthouse"]["addr:street"~"Appellhofplatz"](50.93,6.94,50.94,6.96););out center;`,
+  "poi-st-marien": `[out:json];(way["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97);node["name"~"Marien"]["amenity"="hospital"](50.94,6.95,50.95,6.97););out center;`,
+  "poi-seniorenhaus-st-maria": `[out:json];(way["name"~"St. Maria"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96);node["name"~"St. Maria"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96);way["addr:street"="Schwalbengasse"]["amenity"~"nursing_home|social_facility"](50.93,6.95,50.94,6.96););out center;`,
+  "poi-residenz-am-dom": `[out:json];(way["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);node["name"~"Residenz am Dom"](50.94,6.95,50.95,6.96);way["addr:street"="An den Dominikanern"]["amenity"~"nursing_home|social_facility"](50.94,6.95,50.95,6.96););out center;`,
 };
 
 const pois = JSON.parse(readFileSync("public/data/pois.json", "utf-8"));
