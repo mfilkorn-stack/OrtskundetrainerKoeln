@@ -1,4 +1,5 @@
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents } from "react-leaflet";
+import { useEffect, useRef } from "react";
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { toLeafletPositions } from "../../utils/geo";
@@ -75,6 +76,74 @@ function MapClickHandler({ onClick }: { onClick: (latlng: [number, number]) => v
       onClick([e.latlng.lat, e.latlng.lng]);
     },
   });
+  return null;
+}
+
+/** Converts a Street geometry to a Leaflet LatLngBounds. */
+function streetBounds(street: Street): L.LatLngBounds {
+  const positions = toLeafletPositions(street.geometry);
+  // Flatten nested arrays (MultiLineString produces [number, number][][])
+  const flat: [number, number][] = Array.isArray(positions[0]?.[0])
+    ? (positions as [number, number][][]).flat()
+    : (positions as [number, number][]);
+  return L.latLngBounds(flat.map(([lat, lng]) => L.latLng(lat, lng)));
+}
+
+interface FitBoundsProps {
+  highlightStreet?: Street | null;
+  showCorrectStreet?: Street | null;
+  poi?: PointOfInterest | null;
+  routeStart?: [number, number] | null;
+  routeEnd?: [number, number] | null;
+  routeLine?: [number, number][] | null;
+}
+
+/** Automatically pans/zooms the map to fit the currently displayed feature. */
+function FitBounds({ highlightStreet, showCorrectStreet, poi, routeStart, routeEnd, routeLine }: FitBoundsProps) {
+  const map = useMap();
+  const prevKey = useRef<string>("");
+
+  useEffect(() => {
+    let bounds: L.LatLngBounds | null = null;
+
+    // Priority: showCorrectStreet (answer reveal) > highlightStreet > route > POI
+    if (showCorrectStreet?.geometry) {
+      bounds = streetBounds(showCorrectStreet);
+      if (highlightStreet?.geometry) {
+        bounds.extend(streetBounds(highlightStreet));
+      }
+    } else if (highlightStreet?.geometry) {
+      bounds = streetBounds(highlightStreet);
+    } else if (routeLine && routeLine.length > 0) {
+      bounds = L.latLngBounds(routeLine.map(([lat, lng]) => L.latLng(lat, lng)));
+    } else if (routeStart && routeEnd) {
+      bounds = L.latLngBounds([L.latLng(routeStart[0], routeStart[1]), L.latLng(routeEnd[0], routeEnd[1])]);
+    } else if (routeStart) {
+      bounds = L.latLngBounds([L.latLng(routeStart[0], routeStart[1])]);
+    } else if (poi) {
+      const [lat, lng] = poi.coordinates;
+      map.setView([lat, lng], 16, { animate: true });
+      prevKey.current = `poi-${poi.id}`;
+      return;
+    }
+
+    if (!bounds || !bounds.isValid()) return;
+
+    // Build a key to avoid re-fitting the same feature
+    const key = [
+      highlightStreet?.id,
+      showCorrectStreet?.id,
+      routeStart?.join(","),
+      routeEnd?.join(","),
+      routeLine?.length,
+    ].join("|");
+
+    if (key === prevKey.current) return;
+    prevKey.current = key;
+
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 17, animate: true });
+  }, [map, highlightStreet, showCorrectStreet, poi, routeStart, routeEnd, routeLine]);
+
   return null;
 }
 
@@ -171,6 +240,15 @@ export function QuizMap({
         )}
 
         {onMapClick && <MapClickHandler onClick={onMapClick} />}
+
+        <FitBounds
+          highlightStreet={highlightStreet}
+          showCorrectStreet={showCorrectStreet}
+          poi={poi}
+          routeStart={routeStart}
+          routeEnd={routeEnd}
+          routeLine={routeLine}
+        />
       </MapContainer>
     </div>
   );
