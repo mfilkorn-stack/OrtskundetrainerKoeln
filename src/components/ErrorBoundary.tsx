@@ -23,20 +23,21 @@ export class ErrorBoundary extends Component<Props, State> {
     if (this.state.hasError) {
       return (
         <div style={{ padding: 24, textAlign: "center" }}>
-          <h2 style={{ color: "#C8102E" }}>Etwas ist schiefgelaufen</h2>
-          <p style={{ margin: "12px 0", color: "#666" }}>
+          <h2 style={{ color: "#0F1C3F" }}>Etwas ist schiefgelaufen</h2>
+          <p style={{ margin: "12px 0", color: "#5a6070" }}>
             {this.state.error?.message || "Unbekannter Fehler"}
           </p>
           <button
             onClick={() => window.location.reload()}
             style={{
               padding: "10px 20px",
-              background: "#C8102E",
-              color: "white",
+              background: "#0F1C3F",
+              color: "#C5A23C",
               border: "none",
               borderRadius: 8,
               cursor: "pointer",
               fontSize: "1rem",
+              fontWeight: 600,
             }}
           >
             Seite neu laden

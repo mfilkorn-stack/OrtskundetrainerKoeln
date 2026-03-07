@@ -42,7 +42,7 @@ try {
     popupAnchor: [1, -34],
   });
   redIcon = new L.Icon({
-    iconUrl: coloredMarkerSvg("#C8102E"),
+    iconUrl: coloredMarkerSvg("#0F1C3F"),
     shadowUrl: markerShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
@@ -80,7 +80,7 @@ function MapClickHandler({ onClick }: { onClick: (latlng: [number, number]) => v
 
 export function QuizMap({
   highlightStreet,
-  highlightColor = "#C8102E",
+  highlightColor = "#C5A23C",
   showCorrectStreet,
   userMarker,
   onMapClick,

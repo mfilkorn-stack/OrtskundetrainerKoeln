@@ -54,7 +54,7 @@ export function MultipleChoice({ streets, districts }: MultipleChoiceProps) {
     <>
       <QuizMap
         highlightStreet={q?.targetStreet}
-        highlightColor="#C8102E"
+        highlightColor="#C5A23C"
         districts={districts}
       />
       <div className="quiz-panel">

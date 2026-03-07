@@ -1,18 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#C8102E"/>
+  <rect width="64" height="64" rx="8" fill="#0F1C3F"/>
+  <!-- Shield outline -->
+  <path d="M32 4 L56 16 V38 C56 48 45 56 32 62 C19 56 8 48 8 38 V16 Z" fill="#1A2D5A" stroke="#C5A23C" stroke-width="1.5"/>
   <!-- Left spire -->
-  <polygon points="20,6 12,40 28,40" fill="#fff"/>
-  <rect x="19" y="2" width="2" height="5" fill="#fff"/>
-  <rect x="17.5" y="3.5" width="5" height="2" fill="#fff"/>
+  <polygon points="22,12 16,36 28,36" fill="#C5A23C"/>
+  <rect x="21" y="8" width="2" height="5" fill="#C5A23C"/>
+  <rect x="19.5" y="9.5" width="5" height="2" fill="#C5A23C"/>
   <!-- Right spire -->
-  <polygon points="44,10 36,40 52,40" fill="#fff"/>
-  <rect x="43" y="6" width="2" height="5" fill="#fff"/>
-  <rect x="41.5" y="7.5" width="5" height="2" fill="#fff"/>
+  <polygon points="42,16 36,36 48,36" fill="#C5A23C"/>
+  <rect x="41" y="12" width="2" height="5" fill="#C5A23C"/>
+  <rect x="39.5" y="13.5" width="5" height="2" fill="#C5A23C"/>
   <!-- Cathedral body -->
-  <rect x="12" y="40" width="40" height="8" fill="#fff"/>
+  <rect x="16" y="36" width="32" height="6" fill="#C5A23C"/>
   <!-- Rosette -->
-  <circle cx="32" cy="34" r="3" fill="#C8102E"/>
+  <circle cx="32" cy="30" r="2.5" fill="#C8102E"/>
   <!-- Road -->
-  <polygon points="22,64 42,64 36,48 28,48" fill="#fff"/>
-  <line x1="32" y1="63" x2="32" y2="49" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="2.5 2"/>
+  <polygon points="24,56 40,56 36,42 28,42" fill="#fff" opacity="0.9"/>
+  <line x1="32" y1="55" x2="32" y2="43" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="2.5 2"/>
 </svg>

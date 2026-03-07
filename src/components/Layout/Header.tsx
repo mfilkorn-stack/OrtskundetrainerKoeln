@@ -3,10 +3,12 @@ import { Logo } from "./Logo";
 export function Header() {
   return (
     <header className="header">
-      <Logo size={36} className="header-logo" />
+      <div className="header-logo">
+        <Logo size={44} />
+      </div>
       <div className="header-text">
-        <h1>Ortskundetrainer Köln Innenstadt</h1>
-        <div className="subtitle">Feuerwache 1 — Rettungsdienst & Feuerwehr</div>
+        <h1>FW1 Ortskundetrainer</h1>
+        <div className="subtitle">Köln Innenstadt — Rettungsdienst & Feuerwehr</div>
       </div>
     </header>
   );
