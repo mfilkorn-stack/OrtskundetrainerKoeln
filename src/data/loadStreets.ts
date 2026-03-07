@@ -32,8 +32,10 @@ export async function loadAllStreets(): Promise<Street[]> {
         const coords = getStreetCoordinates(geometry);
         if (coords.length === 0) continue;
         const center = polylineCenter(coords);
+        // Derive category from OSM highway tag: primary/secondary = Hauptstraße
+        const hw = feature.properties.highway as string | undefined;
         const category: StreetCategory =
-          feature.properties.category === "hauptverkehr" ? "hauptverkehr" : "sonstige";
+          hw === "primary" || hw === "secondary" ? "hauptverkehr" : "sonstige";
 
         allStreets.push({
           id: feature.properties.id || `${district}-${feature.properties.name}`,
