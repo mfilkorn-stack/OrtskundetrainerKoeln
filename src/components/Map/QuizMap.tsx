@@ -1,6 +1,5 @@
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 import { toLeafletCoords, getStreetCoordinates } from "../../utils/geo";
 import type { Street, PointOfInterest } from "../../types/street";
 
@@ -9,13 +8,17 @@ import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: markerIcon2x,
-  iconUrl: markerIcon,
-  shadowUrl: markerShadow,
-});
+try {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  delete (L.Icon.Default.prototype as any)._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: markerIcon2x,
+    iconUrl: markerIcon,
+    shadowUrl: markerShadow,
+  });
+} catch (e) {
+  console.warn("Leaflet icon init failed:", e);
+}
 
 const COLOGNE_CENTER: [number, number] = [50.9375, 6.9553];
 const BOUNDS: L.LatLngBoundsExpression = [
@@ -23,23 +26,30 @@ const BOUNDS: L.LatLngBoundsExpression = [
   [50.955, 6.975],
 ];
 
-const greenIcon = new L.Icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  className: "marker-green",
-});
-
-const redIcon = new L.Icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  className: "marker-red",
-});
+let greenIcon: L.Icon;
+let redIcon: L.Icon;
+try {
+  greenIcon = new L.Icon({
+    iconUrl: markerIcon,
+    iconRetinaUrl: markerIcon2x,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    className: "marker-green",
+  });
+  redIcon = new L.Icon({
+    iconUrl: markerIcon,
+    iconRetinaUrl: markerIcon2x,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    className: "marker-red",
+  });
+} catch (e) {
+  console.warn("Leaflet custom icon init failed:", e);
+  greenIcon = new L.Icon({ iconUrl: markerIcon, shadowUrl: markerShadow, iconSize: [25, 41], iconAnchor: [12, 41] });
+  redIcon = new L.Icon({ iconUrl: markerIcon, shadowUrl: markerShadow, iconSize: [25, 41], iconAnchor: [12, 41] });
+}
 
 interface QuizMapProps {
   highlightStreet?: Street | null;
@@ -104,14 +114,14 @@ export function QuizMap({
           />
         )}
 
-        {highlightStreet && (
+        {highlightStreet && highlightStreet.geometry && (
           <Polyline
             positions={toLeafletCoords(getStreetCoordinates(highlightStreet.geometry))}
             pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
           />
         )}
 
-        {showCorrectStreet && (
+        {showCorrectStreet && showCorrectStreet.geometry && (
           <Polyline
             positions={toLeafletCoords(getStreetCoordinates(showCorrectStreet.geometry))}
             pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}

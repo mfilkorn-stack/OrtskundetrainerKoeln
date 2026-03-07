@@ -14,24 +14,39 @@ export async function loadAllStreets(): Promise<Street[]> {
   const allStreets: Street[] = [];
 
   for (const [district, file] of Object.entries(DISTRICT_FILES)) {
-    const response = await fetch(file);
-    const geojson = await response.json();
+    try {
+      const response = await fetch(file);
+      if (!response.ok) {
+        console.warn(`Failed to load ${file}: ${response.status}`);
+        continue;
+      }
+      const geojson = await response.json();
+      if (!geojson?.features) {
+        console.warn(`No features in ${file}`);
+        continue;
+      }
 
-    for (const feature of geojson.features) {
-      const geometry = feature.geometry as GeoJSON.LineString | GeoJSON.MultiLineString;
-      const coords = getStreetCoordinates(geometry);
-      const center = polylineCenter(coords);
-      const category: StreetCategory =
-        feature.properties.category === "hauptverkehr" ? "hauptverkehr" : "sonstige";
+      for (const feature of geojson.features) {
+        const geometry = feature.geometry as GeoJSON.LineString | GeoJSON.MultiLineString;
+        if (!geometry?.coordinates) continue;
+        const coords = getStreetCoordinates(geometry);
+        if (coords.length === 0) continue;
+        const center = polylineCenter(coords);
+        const category: StreetCategory =
+          feature.properties.category === "hauptverkehr" ? "hauptverkehr" : "sonstige";
 
-      allStreets.push({
-        id: feature.properties.id || `${district}-${feature.properties.name}`,
-        name: feature.properties.name,
-        district: district as District,
-        category,
-        geometry,
-        center,
-      });
+        allStreets.push({
+          id: feature.properties.id || `${district}-${feature.properties.name}`,
+          name: feature.properties.name,
+          district: district as District,
+          category,
+          geometry,
+          center,
+        });
+      }
+    } catch (err) {
+      console.warn(`Error loading ${file}:`, err);
+      continue;
     }
   }
 
@@ -46,6 +61,15 @@ export async function loadAllStreets(): Promise<Street[]> {
 }
 
 export async function loadPOIs(): Promise<PointOfInterest[]> {
-  const response = await fetch(`${base}data/pois.json`);
-  return response.json();
+  try {
+    const response = await fetch(`${base}data/pois.json`);
+    if (!response.ok) {
+      console.warn(`Failed to load pois.json: ${response.status}`);
+      return [];
+    }
+    return await response.json();
+  } catch (err) {
+    console.warn("Error loading POIs:", err);
+    return [];
+  }
 }
