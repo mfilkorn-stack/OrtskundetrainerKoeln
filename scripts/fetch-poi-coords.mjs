@@ -4,7 +4,7 @@ const OVERPASS = "https://overpass-api.de/api/interpreter";
 
 // Overpass queries to find each POI
 const queries = {
-  "poi-feuerwache1": `[out:json];way["name"~"Rettungswache"]["addr:street"="Agrippastraße"](50.92,6.93,50.94,6.96);out center;`,
+  "poi-feuerwache1": `[out:json];(way["amenity"="fire_station"]["addr:street"="Agrippastraße"](50.92,6.93,50.94,6.96);node["amenity"="fire_station"]["addr:street"="Agrippastraße"](50.92,6.93,50.94,6.96);way["name"~"Rettungswache 1"]["addr:city"="Köln"](50.92,6.93,50.94,6.96););out center;`,
   "poi-uniklinik": `[out:json];way["name"~"Uniklinik|Universitätsklinik"]["amenity"="hospital"](50.92,6.90,50.93,6.93);out center;`,
   "poi-eduardus": `[out:json];way["name"~"Eduardus"]["amenity"="hospital"](50.91,6.94,50.92,6.95);out center;`,
   "poi-antonius": `[out:json];way["name"~"Augustinerinnen|Severinsklösterchen"]["amenity"="hospital"](50.92,6.95,50.93,6.97);out center;`,

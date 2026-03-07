@@ -30,5 +30,5 @@ export const DISTRICT_LABELS: Record<District, string> = {
 export const FEUERWACHE_1 = {
   name: "Feuerwache 1",
   address: "Agrippastraße 18, 50676 Köln",
-  coordinates: [50.9333, 6.9456] as [number, number],
+  coordinates: [50.9311, 6.9501] as [number, number],
 };
