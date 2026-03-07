@@ -4840,6 +4840,622 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-34",
+        "name": "Alteburger Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.928
+          ],
+          [
+            6.954,
+            50.931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-35",
+        "name": "Bayenstraße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.962,
+            50.928
+          ],
+          [
+            6.964,
+            50.932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-36",
+        "name": "Bonner Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.956,
+            50.923
+          ],
+          [
+            6.9565,
+            50.928
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-37",
+        "name": "Chlodwigplatz",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.926
+          ],
+          [
+            6.957,
+            50.9265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-38",
+        "name": "Filzengraben",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9595,
+            50.935
+          ],
+          [
+            6.961,
+            50.936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-39",
+        "name": "Follerstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9535,
+            50.93
+          ],
+          [
+            6.955,
+            50.9305
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-40",
+        "name": "Friedrichstraße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.948,
+            50.931
+          ],
+          [
+            6.949,
+            50.934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-41",
+        "name": "Griechenpforte",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.958,
+            50.934
+          ],
+          [
+            6.959,
+            50.935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-42",
+        "name": "Hahnenstraße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.942,
+            50.937
+          ],
+          [
+            6.946,
+            50.937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-43",
+        "name": "Harry-Blum-Platz",
+        "highway": "pedestrian",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9565,
+            50.9265
+          ],
+          [
+            6.9575,
+            50.927
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-44",
+        "name": "Hohe Pforte",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.937
+          ],
+          [
+            6.957,
+            50.9375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-45",
+        "name": "Jakobstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.933
+          ],
+          [
+            6.9545,
+            50.934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-46",
+        "name": "Kartäuserhof",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9505,
+            50.931
+          ],
+          [
+            6.952,
+            50.9315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-47",
+        "name": "Karolingerring",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9535,
+            50.925
+          ],
+          [
+            6.9555,
+            50.926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-48",
+        "name": "Kleine Spitzengasse",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.9345
+          ],
+          [
+            6.9565,
+            50.935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-49",
+        "name": "Mauritiussteinweg",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946,
+            50.935
+          ],
+          [
+            6.948,
+            50.936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-50",
+        "name": "Neumarkt",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.949,
+            50.937
+          ],
+          [
+            6.951,
+            50.9375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-51",
+        "name": "Neue Weyerstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.943,
+            50.934
+          ],
+          [
+            6.9445,
+            50.935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-52",
+        "name": "Pantaleonstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9455,
+            50.932
+          ],
+          [
+            6.947,
+            50.933
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-53",
+        "name": "Rheinauhafen",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.961,
+            50.93
+          ],
+          [
+            6.963,
+            50.931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-54",
+        "name": "Severinsbrücke",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.96,
+            50.928
+          ],
+          [
+            6.965,
+            50.9285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-55",
+        "name": "Severinswall",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.956,
+            50.928
+          ],
+          [
+            6.957,
+            50.932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-56",
+        "name": "Sternengasse",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.955,
+            50.9355
+          ],
+          [
+            6.956,
+            50.9365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-57",
+        "name": "Tel-Aviv-Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.949,
+            50.93
+          ],
+          [
+            6.95,
+            50.931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-58",
+        "name": "Trierer Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.945,
+            50.931
+          ],
+          [
+            6.946,
+            50.934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-59",
+        "name": "Ubierring",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.95,
+            50.925
+          ],
+          [
+            6.956,
+            50.9255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-60",
+        "name": "Ulrichgasse",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.935
+          ],
+          [
+            6.9545,
+            50.9355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-61",
+        "name": "Weyerstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.943,
+            50.933
+          ],
+          [
+            6.9445,
+            50.934
+          ]
+        ]
+      }
     }
   ]
 }

@@ -6884,6 +6884,358 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-27",
+        "name": "Aachener Straße",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.928,
+            50.9375
+          ],
+          [
+            6.942,
+            50.9375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-28",
+        "name": "Bonner Wall",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.95,
+            50.924
+          ],
+          [
+            6.953,
+            50.925
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-29",
+        "name": "Eifelplatz",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.934,
+            50.931
+          ],
+          [
+            6.935,
+            50.9315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-30",
+        "name": "Hochstadenstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.941,
+            50.932
+          ],
+          [
+            6.9425,
+            50.9335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-31",
+        "name": "Hohenstaufenring",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.944,
+            50.934
+          ],
+          [
+            6.946,
+            50.936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-32",
+        "name": "Karolingerring",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.925
+          ],
+          [
+            6.9555,
+            50.926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-33",
+        "name": "Kyffhäuserstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.939,
+            50.934
+          ],
+          [
+            6.94,
+            50.9355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-34",
+        "name": "Moltkestraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.941,
+            50.929
+          ],
+          [
+            6.9425,
+            50.9305
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-35",
+        "name": "Pfälzer Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.948,
+            50.9275
+          ],
+          [
+            6.9495,
+            50.9285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-36",
+        "name": "Rathenauplatz",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.938,
+            50.935
+          ],
+          [
+            6.9395,
+            50.9355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-37",
+        "name": "Richard-Wagner-Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.939,
+            50.931
+          ],
+          [
+            6.941,
+            50.9325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-38",
+        "name": "Sachsenring",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.938,
+            50.93
+          ],
+          [
+            6.95,
+            50.93
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-39",
+        "name": "Volksgartenstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.94,
+            50.926
+          ],
+          [
+            6.942,
+            50.927
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-40",
+        "name": "Vondelstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9395,
+            50.925
+          ],
+          [
+            6.941,
+            50.926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-41",
+        "name": "Wormser Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946,
+            50.928
+          ],
+          [
+            6.9475,
+            50.929
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ns-42",
+        "name": "Zülpicher Platz",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.937,
+            50.9365
+          ],
+          [
+            6.938,
+            50.937
+          ]
+        ]
+      }
     }
   ]
 }

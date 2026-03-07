@@ -7088,6 +7088,314 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-31",
+        "name": "Amsterdamer Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.935,
+            50.95
+          ],
+          [
+            6.94,
+            50.953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-32",
+        "name": "Clever Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.936,
+            50.946
+          ],
+          [
+            6.938,
+            50.947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-33",
+        "name": "Erftstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9375,
+            50.943
+          ],
+          [
+            6.939,
+            50.9445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-34",
+        "name": "Genter Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.935,
+            50.947
+          ],
+          [
+            6.937,
+            50.9475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-35",
+        "name": "Gilbachstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.94,
+            50.941
+          ],
+          [
+            6.9415,
+            50.942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-36",
+        "name": "Hans-Böckler-Platz",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.929,
+            50.942
+          ],
+          [
+            6.931,
+            50.9425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-37",
+        "name": "Im Mediapark",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9395,
+            50.944
+          ],
+          [
+            6.941,
+            50.945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-38",
+        "name": "Kaiser-Wilhelm-Ring",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.94,
+            50.942
+          ],
+          [
+            6.942,
+            50.944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-39",
+        "name": "Krefelder Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.934,
+            50.947
+          ],
+          [
+            6.936,
+            50.949
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-40",
+        "name": "Lütticher Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.937,
+            50.9475
+          ],
+          [
+            6.939,
+            50.948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-41",
+        "name": "Neusser Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946,
+            50.946
+          ],
+          [
+            6.948,
+            50.95
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-42",
+        "name": "Reichenspergerplatz",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.954,
+            50.9475
+          ],
+          [
+            6.9555,
+            50.948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-43",
+        "name": "Riehler Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.949,
+            50.949
+          ],
+          [
+            6.951,
+            50.953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nn-44",
+        "name": "Theodor-Heuss-Ring",
+        "highway": "primary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9505,
+            50.946
+          ],
+          [
+            6.953,
+            50.947
+          ]
+        ]
+      }
     }
   ]
 }

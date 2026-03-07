@@ -8296,6 +8296,666 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-55",
+        "name": "Turiner Straße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9535,
+            50.9448
+          ],
+          [
+            6.9565,
+            50.9448
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-56",
+        "name": "Unter Krahnenbäumen",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.9435
+          ],
+          [
+            6.9575,
+            50.9435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-57",
+        "name": "Weidengasse",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9545,
+            50.9425
+          ],
+          [
+            6.957,
+            50.9425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-58",
+        "name": "Eintrachtstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.954,
+            50.942
+          ],
+          [
+            6.9565,
+            50.942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-59",
+        "name": "Greesbergstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.945
+          ],
+          [
+            6.9545,
+            50.9455
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-60",
+        "name": "Niederichstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.957,
+            50.944
+          ],
+          [
+            6.959,
+            50.9445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-61",
+        "name": "Norbertstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.956,
+            50.944
+          ],
+          [
+            6.9575,
+            50.9445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-62",
+        "name": "Kolumbastraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.953,
+            50.938
+          ],
+          [
+            6.954,
+            50.9385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-63",
+        "name": "Fischmarkt",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.961,
+            50.938
+          ],
+          [
+            6.962,
+            50.9385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-64",
+        "name": "Markmannsgasse",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9615,
+            50.9385
+          ],
+          [
+            6.9625,
+            50.939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-65",
+        "name": "Roncalliplatz",
+        "highway": "pedestrian",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9565,
+            50.941
+          ],
+          [
+            6.9575,
+            50.9415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-66",
+        "name": "Bischofsgartenstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.959,
+            50.9415
+          ],
+          [
+            6.961,
+            50.942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-67",
+        "name": "Friesenstraße",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.942,
+            50.942
+          ],
+          [
+            6.944,
+            50.944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-68",
+        "name": "Apostelnstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.948,
+            50.938
+          ],
+          [
+            6.949,
+            50.9395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-69",
+        "name": "Richmodstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.947,
+            50.939
+          ],
+          [
+            6.9485,
+            50.94
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-70",
+        "name": "Gertrudenstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.946,
+            50.9395
+          ],
+          [
+            6.9475,
+            50.9405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-71",
+        "name": "Am Römerturm",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.948,
+            50.9408
+          ],
+          [
+            6.9485,
+            50.9415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-72",
+        "name": "An der Rechtschule",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.949,
+            50.941
+          ],
+          [
+            6.95,
+            50.9415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-73",
+        "name": "Klingelpütz",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9455,
+            50.9415
+          ],
+          [
+            6.9465,
+            50.9425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-74",
+        "name": "Offenbachplatz",
+        "highway": "pedestrian",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465,
+            50.94
+          ],
+          [
+            6.9475,
+            50.9405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-75",
+        "name": "St.-Apern-Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9455,
+            50.94
+          ],
+          [
+            6.9465,
+            50.941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-76",
+        "name": "Antoniterstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.95,
+            50.9385
+          ],
+          [
+            6.951,
+            50.939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-77",
+        "name": "Brüderstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9475,
+            50.9385
+          ],
+          [
+            6.949,
+            50.939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-78",
+        "name": "Bürgerstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.95,
+            50.94
+          ],
+          [
+            6.951,
+            50.941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-79",
+        "name": "Cardinalstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9535,
+            50.94
+          ],
+          [
+            6.9545,
+            50.9405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-80",
+        "name": "Hamburger Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465,
+            50.9435
+          ],
+          [
+            6.948,
+            50.944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-81",
+        "name": "Brandenburger Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9465,
+            50.943
+          ],
+          [
+            6.948,
+            50.9435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-82",
+        "name": "Neven-DuMont-Straße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.95,
+            50.9395
+          ],
+          [
+            6.9515,
+            50.94
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-83",
+        "name": "Augustinerstraße",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9515,
+            50.9395
+          ],
+          [
+            6.9525,
+            50.94
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-84",
+        "name": "Margarethenkloster",
+        "highway": "residential",
+        "category": "erschliessung"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9525,
+            50.9395
+          ],
+          [
+            6.9535,
+            50.9398
+          ]
+        ]
+      }
     }
   ]
 }
