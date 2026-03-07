@@ -391,10 +391,10 @@ body {
 .route-marker.end { background: var(--error); }
 
 /* Leaflet map marker colors for route start/end */
-.marker-green img {
+img.marker-green {
   filter: hue-rotate(100deg) saturate(1.5);
 }
-.marker-red img {
+img.marker-red {
   filter: hue-rotate(-30deg) saturate(2);
 }
 
