@@ -22,17 +22,6 @@
     "address": "Jakobstraße 27-31"
   },
   {
-    "id": "poi-st-maria-hilf",
-    "name": "Klinik St. Maria-Hilf",
-    "type": "krankenhaus",
-    "district": "altstadt-sued",
-    "coordinates": [
-      50.929,
-      6.951
-    ],
-    "address": "Am Klapperhof 22"
-  },
-  {
     "id": "poi-rathaus",
     "name": "Historisches Rathaus",
     "type": "oeffentliches_gebaeude",
