@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-1",
-        "name": "Hohe Straße",
+        "name": "Hohe Stra\u00dfe",
         "highway": "primary",
         "category": "hauptverkehr"
       },
@@ -245,7 +245,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-3",
-        "name": "Cäcilienstraße",
+        "name": "C\u00e4cilienstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -551,7 +551,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-4",
-        "name": "Pipinstraße",
+        "name": "Pipinstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -739,7 +739,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-5",
-        "name": "Große Sandkaul",
+        "name": "Gro\u00dfe Sandkaul",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -817,7 +817,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-6",
-        "name": "Augustinerstraße",
+        "name": "Augustinerstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -891,7 +891,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-7",
-        "name": "Severinstraße",
+        "name": "Severinstra\u00dfe",
         "highway": "primary",
         "category": "hauptverkehr"
       },
@@ -2057,7 +2057,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-12",
-        "name": "Mühlenbach",
+        "name": "M\u00fchlenbach",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2251,7 +2251,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-14",
-        "name": "Agrippastraße",
+        "name": "Agrippastra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2831,7 +2831,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-17",
-        "name": "Leonhard-Tietz-Straße",
+        "name": "Leonhard-Tietz-Stra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -2947,7 +2947,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-19",
-        "name": "Antoniterstraße",
+        "name": "Antoniterstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -3017,7 +3017,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-20",
-        "name": "Gertrudenstraße",
+        "name": "Gertrudenstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -3099,7 +3099,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-21",
-        "name": "Clemensstraße",
+        "name": "Clemensstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -3335,7 +3335,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-25",
-        "name": "Poststraße",
+        "name": "Poststra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -3939,7 +3939,7 @@
       "type": "Feature",
       "properties": {
         "id": "as-31",
-        "name": "Mathiasstraße",
+        "name": "Mathiasstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4067,6 +4067,32 @@
           [
             6.9594108,
             50.9245135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "as-33",
+        "name": "Heumarkt",
+        "highway": "secondary",
+        "category": "hauptverkehr"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.958,
+            50.9362
+          ],
+          [
+            6.96,
+            50.9365
+          ],
+          [
+            6.9625,
+            50.9368
           ]
         ]
       }

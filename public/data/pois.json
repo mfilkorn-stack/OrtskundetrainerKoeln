@@ -177,14 +177,14 @@
   },
   {
     "id": "poi-gericht",
-    "name": "Amtsgericht Köln",
+    "name": "Verwaltungsgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9395,
-      6.952
+      50.9393,
+      6.9505
     ],
-    "address": "Luxemburger Str. 101"
+    "address": "Appellhofplatz 1"
   },
   {
     "id": "poi-sparkasse",
@@ -207,5 +207,38 @@
       6.949
     ],
     "address": "Offenbachplatz"
+  },
+  {
+    "id": "poi-st-marien",
+    "name": "Cellitinnen-Krankenhaus St. Marien",
+    "type": "krankenhaus",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.9455,
+      6.961
+    ],
+    "address": "Kunibertskloster 11-13"
+  },
+  {
+    "id": "poi-seniorenhaus-st-maria",
+    "name": "Seniorenhaus St. Maria (Cellitinnen)",
+    "type": "altenheim",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.938,
+      6.958
+    ],
+    "address": "Schwalbengasse 3-5"
+  },
+  {
+    "id": "poi-residenz-am-dom",
+    "name": "Residenz am Dom (Seniorenresidenz)",
+    "type": "altenheim",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.9426,
+      6.9555
+    ],
+    "address": "An den Dominikanern 6-8"
   }
 ]

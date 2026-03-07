@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-1",
-        "name": "Komödienstraße",
+        "name": "Kom\u00f6dienstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -239,7 +239,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-2",
-        "name": "Tunisstraße",
+        "name": "Tunisstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -1371,7 +1371,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-6",
-        "name": "Hohe Straße",
+        "name": "Hohe Stra\u00dfe",
         "highway": "primary",
         "category": "hauptverkehr"
       },
@@ -1615,7 +1615,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-8",
-        "name": "Breite Straße",
+        "name": "Breite Stra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -1811,7 +1811,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-9",
-        "name": "Nord-Süd-Fahrt",
+        "name": "Nord-S\u00fcd-Fahrt",
         "highway": "primary",
         "category": "hauptverkehr"
       },
@@ -1923,7 +1923,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-10",
-        "name": "Cäcilienstraße",
+        "name": "C\u00e4cilienstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2229,7 +2229,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-11",
-        "name": "Domstraße",
+        "name": "Domstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2377,7 +2377,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-13",
-        "name": "Marzellenstraße",
+        "name": "Marzellenstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2527,7 +2527,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-14",
-        "name": "Johannisstraße",
+        "name": "Johannisstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2821,7 +2821,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-15",
-        "name": "Gereonstraße",
+        "name": "Gereonstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -2955,7 +2955,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-16",
-        "name": "Christophstraße",
+        "name": "Christophstra\u00dfe",
         "highway": "secondary",
         "category": "hauptverkehr"
       },
@@ -4063,7 +4063,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-23",
-        "name": "Große Budengasse",
+        "name": "Gro\u00dfe Budengasse",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4105,7 +4105,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-24",
-        "name": "Minoritenstraße",
+        "name": "Minoritenstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4303,7 +4303,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-26",
-        "name": "Brückenstraße",
+        "name": "Br\u00fcckenstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4471,7 +4471,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-27",
-        "name": "Martinstraße",
+        "name": "Martinstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4837,7 +4837,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-31",
-        "name": "Helenenstraße",
+        "name": "Helenenstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4939,7 +4939,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-32",
-        "name": "Ursulagartenstraße",
+        "name": "Ursulagartenstra\u00dfe",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -4977,7 +4977,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-33",
-        "name": "Kardinal-Höffner-Platz",
+        "name": "Kardinal-H\u00f6ffner-Platz",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -5267,7 +5267,7 @@
       "type": "Feature",
       "properties": {
         "id": "an-38",
-        "name": "Große Neugasse",
+        "name": "Gro\u00dfe Neugasse",
         "highway": "residential",
         "category": "sonstige"
       },
@@ -5507,6 +5507,344 @@
               6.9532564,
               50.9383691
             ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-41",
+        "name": "Alter Markt",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9582,
+            50.9383
+          ],
+          [
+            6.9595,
+            50.938
+          ],
+          [
+            6.9607,
+            50.9378
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-42",
+        "name": "Unter Sachsenhausen",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9595,
+            50.9385
+          ],
+          [
+            6.9615,
+            50.938
+          ],
+          [
+            6.963,
+            50.9375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-43",
+        "name": "Wallrafplatz",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.9408
+          ],
+          [
+            6.956,
+            50.941
+          ],
+          [
+            6.9565,
+            50.9412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-44",
+        "name": "Zeughausstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9485,
+            50.9398
+          ],
+          [
+            6.9495,
+            50.94
+          ],
+          [
+            6.951,
+            50.9402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-45",
+        "name": "Appellhofplatz",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9495,
+            50.939
+          ],
+          [
+            6.9505,
+            50.9393
+          ],
+          [
+            6.951,
+            50.9395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-46",
+        "name": "Unter Goldschmied",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9558,
+            50.9385
+          ],
+          [
+            6.9568,
+            50.9383
+          ],
+          [
+            6.9578,
+            50.9381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-47",
+        "name": "Unter Taschenmacher",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.938
+          ],
+          [
+            6.9565,
+            50.9378
+          ],
+          [
+            6.9575,
+            50.9376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-48",
+        "name": "G\u00fcrzenicstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9568,
+            50.9375
+          ],
+          [
+            6.958,
+            50.9378
+          ],
+          [
+            6.9592,
+            50.938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-49",
+        "name": "Dagobertstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.959,
+            50.9455
+          ],
+          [
+            6.96,
+            50.9458
+          ],
+          [
+            6.961,
+            50.946
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-50",
+        "name": "Maximinenstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9555,
+            50.9468
+          ],
+          [
+            6.957,
+            50.947
+          ],
+          [
+            6.9585,
+            50.9472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-51",
+        "name": "Machab\u00e4erstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.954,
+            50.9448
+          ],
+          [
+            6.9555,
+            50.945
+          ],
+          [
+            6.957,
+            50.9452
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-52",
+        "name": "Kunibertskloster",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9595,
+            50.9448
+          ],
+          [
+            6.9605,
+            50.9452
+          ],
+          [
+            6.9615,
+            50.9456
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "an-53",
+        "name": "Pipinstra\u00dfe",
+        "highway": "residential",
+        "category": "sonstige"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9558,
+            50.937
+          ],
+          [
+            6.9568,
+            50.9372
+          ],
+          [
+            6.9578,
+            50.9374
           ]
         ]
       }
