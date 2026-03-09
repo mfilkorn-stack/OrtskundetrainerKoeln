@@ -107,7 +107,7 @@ export function LearnMode({ streets, pois, districts }: LearnModeProps) {
 
       <QuizMap
         highlightStreet={mapStreet as Street | null}
-        highlightColor="#C8102E"
+        highlightColor="#C5A23C"
         poi={mapPOI as PointOfInterest | null}
         districts={districts}
       />
@@ -148,7 +148,7 @@ export function LearnMode({ streets, pois, districts }: LearnModeProps) {
             {seenCount > 0 && (
               <button
                 onClick={() => resetLearnSection(section)}
-                style={{ marginLeft: 12, color: "var(--fw-red)", background: "none", border: "none", cursor: "pointer", fontSize: "0.8rem" }}
+                style={{ marginLeft: 12, color: "var(--navy)", background: "none", border: "none", cursor: "pointer", fontSize: "0.8rem", fontWeight: 600 }}
               >
                 Zurücksetzen
               </button>

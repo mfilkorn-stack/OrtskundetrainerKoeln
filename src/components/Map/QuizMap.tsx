@@ -1,7 +1,8 @@
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents } from "react-leaflet";
+import { useEffect, useRef } from "react";
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline, useMapEvents, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { toLeafletCoords, getStreetCoordinates } from "../../utils/geo";
+import { toLeafletPositions } from "../../utils/geo";
 import type { Street, PointOfInterest } from "../../types/street";
 
 // Fix default marker icons
@@ -27,24 +28,26 @@ const BOUNDS: L.LatLngBoundsExpression = [
   [50.955, 6.975],
 ];
 
+function coloredMarkerSvg(color: string) {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41"><path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 2.4.7 4.6 1.9 6.5L12.5 41l10.6-22c1.2-1.9 1.9-4.1 1.9-6.5C25 5.6 19.4 0 12.5 0z" fill="${color}" stroke="#fff" stroke-width="1.5"/><circle cx="12.5" cy="12.5" r="5" fill="#fff"/></svg>`)}`;
+}
+
 let greenIcon: L.Icon;
 let redIcon: L.Icon;
 try {
   greenIcon = new L.Icon({
-    iconUrl: markerIcon,
-    iconRetinaUrl: markerIcon2x,
+    iconUrl: coloredMarkerSvg("#2e7d32"),
     shadowUrl: markerShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
-    className: "marker-green",
+    popupAnchor: [1, -34],
   });
   redIcon = new L.Icon({
-    iconUrl: markerIcon,
-    iconRetinaUrl: markerIcon2x,
+    iconUrl: coloredMarkerSvg("#0F1C3F"),
     shadowUrl: markerShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
-    className: "marker-red",
+    popupAnchor: [1, -34],
   });
 } catch (e) {
   console.warn("Leaflet custom icon init failed:", e);
@@ -60,6 +63,8 @@ interface QuizMapProps {
   onMapClick?: (latlng: [number, number]) => void;
   routeStart?: [number, number] | null;
   routeEnd?: [number, number] | null;
+  routeStartLabel?: string;
+  routeEndLabel?: string;
   routeLine?: [number, number][] | null;
   poi?: PointOfInterest | null;
   districts?: GeoJSON.FeatureCollection | null;
@@ -74,14 +79,84 @@ function MapClickHandler({ onClick }: { onClick: (latlng: [number, number]) => v
   return null;
 }
 
+/** Converts a Street geometry to a Leaflet LatLngBounds. */
+function streetBounds(street: Street): L.LatLngBounds {
+  const positions = toLeafletPositions(street.geometry);
+  // Flatten nested arrays (MultiLineString produces [number, number][][])
+  const flat: [number, number][] = Array.isArray(positions[0]?.[0])
+    ? (positions as [number, number][][]).flat()
+    : (positions as [number, number][]);
+  return L.latLngBounds(flat.map(([lat, lng]) => L.latLng(lat, lng)));
+}
+
+interface FitBoundsProps {
+  highlightStreet?: Street | null;
+  showCorrectStreet?: Street | null;
+  poi?: PointOfInterest | null;
+  routeStart?: [number, number] | null;
+  routeEnd?: [number, number] | null;
+  routeLine?: [number, number][] | null;
+}
+
+/** Automatically pans/zooms the map to fit the currently displayed feature. */
+function FitBounds({ highlightStreet, showCorrectStreet, poi, routeStart, routeEnd, routeLine }: FitBoundsProps) {
+  const map = useMap();
+  const prevKey = useRef<string>("");
+
+  useEffect(() => {
+    let bounds: L.LatLngBounds | null = null;
+
+    // Priority: showCorrectStreet (answer reveal) > highlightStreet > route > POI
+    if (showCorrectStreet?.geometry) {
+      bounds = streetBounds(showCorrectStreet);
+      if (highlightStreet?.geometry) {
+        bounds.extend(streetBounds(highlightStreet));
+      }
+    } else if (highlightStreet?.geometry) {
+      bounds = streetBounds(highlightStreet);
+    } else if (routeLine && routeLine.length > 0) {
+      bounds = L.latLngBounds(routeLine.map(([lat, lng]) => L.latLng(lat, lng)));
+    } else if (routeStart && routeEnd) {
+      bounds = L.latLngBounds([L.latLng(routeStart[0], routeStart[1]), L.latLng(routeEnd[0], routeEnd[1])]);
+    } else if (routeStart) {
+      bounds = L.latLngBounds([L.latLng(routeStart[0], routeStart[1])]);
+    } else if (poi) {
+      const [lat, lng] = poi.coordinates;
+      map.setView([lat, lng], 16, { animate: true });
+      prevKey.current = `poi-${poi.id}`;
+      return;
+    }
+
+    if (!bounds || !bounds.isValid()) return;
+
+    // Build a key to avoid re-fitting the same feature
+    const key = [
+      highlightStreet?.id,
+      showCorrectStreet?.id,
+      routeStart?.join(","),
+      routeEnd?.join(","),
+      routeLine?.length,
+    ].join("|");
+
+    if (key === prevKey.current) return;
+    prevKey.current = key;
+
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 17, animate: true });
+  }, [map, highlightStreet, showCorrectStreet, poi, routeStart, routeEnd, routeLine]);
+
+  return null;
+}
+
 export function QuizMap({
   highlightStreet,
-  highlightColor = "#C8102E",
+  highlightColor = "#C5A23C",
   showCorrectStreet,
   userMarker,
   onMapClick,
   routeStart,
   routeEnd,
+  routeStartLabel,
+  routeEndLabel,
   routeLine,
   poi,
   districts,
@@ -117,14 +192,14 @@ export function QuizMap({
 
         {highlightStreet && highlightStreet.geometry && (
           <Polyline
-            positions={toLeafletCoords(getStreetCoordinates(highlightStreet.geometry))}
+            positions={toLeafletPositions(highlightStreet.geometry)}
             pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
           />
         )}
 
         {showCorrectStreet && showCorrectStreet.geometry && (
           <Polyline
-            positions={toLeafletCoords(getStreetCoordinates(showCorrectStreet.geometry))}
+            positions={toLeafletPositions(showCorrectStreet.geometry)}
             pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}
           />
         )}
@@ -137,13 +212,13 @@ export function QuizMap({
 
         {routeStart && (
           <Marker position={routeStart} icon={greenIcon}>
-            <Popup>Start</Popup>
+            <Popup>{routeStartLabel ?? "Start"}</Popup>
           </Marker>
         )}
 
         {routeEnd && (
           <Marker position={routeEnd} icon={redIcon}>
-            <Popup>Ziel</Popup>
+            <Popup>{routeEndLabel ?? "Ziel"}</Popup>
           </Marker>
         )}
 
@@ -165,6 +240,15 @@ export function QuizMap({
         )}
 
         {onMapClick && <MapClickHandler onClick={onMapClick} />}
+
+        <FitBounds
+          highlightStreet={highlightStreet}
+          showCorrectStreet={showCorrectStreet}
+          poi={poi}
+          routeStart={routeStart}
+          routeEnd={routeEnd}
+          routeLine={routeLine}
+        />
       </MapContainer>
     </div>
   );

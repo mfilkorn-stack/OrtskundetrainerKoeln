@@ -112,3 +112,20 @@ export function toLeafletCoords(
 ): [number, number][] {
   return coords.map(([lng, lat]) => [lat, lng]);
 }
+
+/**
+ * Convert a street geometry to Leaflet-compatible positions.
+ * Handles both LineString (single path) and MultiLineString (multiple segments).
+ * Returns nested arrays for MultiLineString so Leaflet draws separate segments
+ * instead of connecting them with diagonal lines.
+ */
+export function toLeafletPositions(
+  geometry: GeoJSON.LineString | GeoJSON.MultiLineString
+): [number, number][] | [number, number][][] {
+  if (geometry.type === "LineString") {
+    return toLeafletCoords(geometry.coordinates as [number, number][]);
+  }
+  return (geometry.coordinates as [number, number][][]).map((line) =>
+    toLeafletCoords(line)
+  );
+}

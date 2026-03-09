@@ -3,6 +3,7 @@ import "./App.css";
 import { QuizProvider, useQuizContext } from "./context/QuizContext";
 import { useStreetData } from "./hooks/useStreetData";
 import { Header } from "./components/Layout/Header";
+import { Logo } from "./components/Layout/Logo";
 import { ModeSelector } from "./components/Layout/ModeSelector";
 import { DistrictFilter } from "./components/Layout/DistrictFilter";
 import { ProgressDashboard } from "./components/Stats/ProgressDashboard";
@@ -29,7 +30,12 @@ function AppContent() {
       .catch((err) => console.warn("Failed to load districts:", err));
   }, []);
 
-  if (loading) return <div className="loading">Daten werden geladen...</div>;
+  if (loading) return (
+    <div className="loading">
+      <Logo size={48} variant="dark" className="loading-logo" />
+      <span>Daten werden geladen...</span>
+    </div>
+  );
   if (error) return <div className="loading">Fehler: {error}</div>;
 
   return (

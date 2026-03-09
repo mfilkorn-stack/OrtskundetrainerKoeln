@@ -1,0 +1,71 @@
+name: Fetch OSM Street Geometry
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-fetch all streets (ignore already-enriched)"
+        required: false
+        default: "false"
+        type: boolean
+      branch:
+        description: "Branch to run on (default: current branch)"
+        required: false
+        default: ""
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - "public/data/streets-*.geojson"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch || github.ref }}
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Detect changed district files
+        if: github.event_name == 'push'
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 -- public/data/streets-*.geojson | xargs -I{} basename {} | paste -sd, -)
+          echo "files=$CHANGED" >> "$GITHUB_OUTPUT"
+          if [ -z "$CHANGED" ]; then
+            echo "No street data files changed, skipping fetch."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changed files: $CHANGED"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch street geometry from Overpass API
+        if: steps.changed.outputs.skip != 'true'
+        run: |
+          ARGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="--force"
+          fi
+          if [ -n "${{ steps.changed.outputs.files }}" ]; then
+            ARGS="$ARGS --files=${{ steps.changed.outputs.files }}"
+          fi
+          node scripts/fetch-osm-geometry.mjs $ARGS
+
+      - name: Commit updated GeoJSON files
+        if: steps.changed.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/streets-*.geojson
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          git diff --cached --quiet || git commit -m "data: update street geometry from OSM (incremental)"
+          git pull --rebase origin "$BRANCH"
+          git push origin "$BRANCH"

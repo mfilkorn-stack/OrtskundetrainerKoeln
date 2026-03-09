@@ -32,8 +32,15 @@ export async function loadAllStreets(): Promise<Street[]> {
         const coords = getStreetCoordinates(geometry);
         if (coords.length === 0) continue;
         const center = polylineCenter(coords);
+        // Use explicit category from GeoJSON if present, otherwise derive from highway tag
+        const cat = feature.properties.category as string | undefined;
+        const hw = feature.properties.highway as string | undefined;
         const category: StreetCategory =
-          feature.properties.category === "hauptverkehr" ? "hauptverkehr" : "sonstige";
+          cat === "hauptverkehr" || cat === "sonstige"
+            ? cat
+            : hw === "primary" || hw === "secondary"
+              ? "hauptverkehr"
+              : "sonstige";
 
         allStreets.push({
           id: feature.properties.id || `${district}-${feature.properties.name}`,

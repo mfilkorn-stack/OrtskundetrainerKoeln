@@ -4,55 +4,43 @@
     "name": "Uniklinik Köln (Notaufnahme)",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [50.9246, 6.9209],
+    "coordinates": [
+      50.9252,
+      6.9193
+    ],
     "address": "Kerpener Str. 62"
-  },
-  {
-    "id": "poi-eduardus",
-    "name": "Eduardus-Krankenhaus",
-    "type": "krankenhaus",
-    "district": "neustadt-sued",
-    "coordinates": [50.9178, 6.9467],
-    "address": "Custodisstraße 3-17"
   },
   {
     "id": "poi-antonius",
     "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
     "type": "krankenhaus",
     "district": "altstadt-sued",
-    "coordinates": [50.9275, 6.9590],
+    "coordinates": [
+      50.92487,
+      6.95702
+    ],
     "address": "Jakobstraße 27-31"
-  },
-  {
-    "id": "poi-st-maria-hilf",
-    "name": "Klinik St. Maria-Hilf",
-    "type": "krankenhaus",
-    "district": "altstadt-sued",
-    "coordinates": [50.9290, 6.9510],
-    "address": "Am Klapperhof 22"
   },
   {
     "id": "poi-rathaus",
     "name": "Historisches Rathaus",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9380, 6.9592],
+    "coordinates": [
+      50.93801,
+      6.95926
+    ],
     "address": "Rathausplatz 2"
-  },
-  {
-    "id": "poi-polizei-waidmarkt",
-    "name": "Polizeipräsidium Köln",
-    "type": "oeffentliches_gebaeude",
-    "district": "altstadt-sued",
-    "coordinates": [50.9318, 6.9575],
-    "address": "Waidmarkt 11"
   },
   {
     "id": "poi-feuerwache1",
     "name": "Feuerwache 1 (Innenstadt)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.9333, 6.9456],
+    "coordinates": [
+      50.93375,
+      6.95388
+    ],
     "address": "Agrippastraße 18"
   },
   {
@@ -60,7 +48,10 @@
     "name": "Kölner Dom",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9413, 6.9583],
+    "coordinates": [
+      50.94131,
+      6.95811
+    ],
     "address": "Domkloster 4"
   },
   {
@@ -68,7 +59,10 @@
     "name": "Köln Hauptbahnhof",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9430, 6.9589],
+    "coordinates": [
+      50.94278,
+      6.95907
+    ],
     "address": "Trankgasse 11"
   },
   {
@@ -76,87 +70,120 @@
     "name": "Museum Ludwig",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9405, 6.9620],
+    "coordinates": [
+      50.9405,
+      6.962
+    ],
     "address": "Heinrich-Böll-Platz"
   },
   {
     "id": "poi-oper",
-    "name": "Oper Köln (Staatenhaus)",
-    "type": "oeffentliches_gebaeude",
-    "district": "neustadt-nord",
-    "coordinates": [50.9425, 6.9650],
-    "address": "Rheinparkweg 1"
-  },
-  {
-    "id": "poi-bezirksrathaus",
-    "name": "Bezirksrathaus Innenstadt",
+    "name": "Oper Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9392, 6.9545],
+    "coordinates": [
+      50.9393,
+      6.9500
+    ],
+    "address": "Offenbachplatz"
+  },
+  {
+    "id": "poi-kundenzentrum",
+    "name": "Kundenzentrum Innenstadt",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.9392,
+      6.9545
+    ],
     "address": "Laurenzplatz 1-3"
   },
   {
-    "id": "poi-stadthaus-deutz",
-    "name": "Stadthaus (Verwaltung)",
-    "type": "oeffentliches_gebaeude",
-    "district": "altstadt-nord",
-    "coordinates": [50.9370, 6.9570],
-    "address": "Alter Markt"
-  },
-  {
     "id": "poi-altenheim-severinswall",
-    "name": "Seniorenzentrum Severinswall",
+    "name": "AWO Arnold-Overzier-Haus",
     "type": "altenheim",
     "district": "altstadt-sued",
-    "coordinates": [50.9270, 6.9530],
-    "address": "Severinswall 33"
+    "coordinates": [
+      50.9248,
+      6.9558
+    ],
+    "address": "Severinswall 43"
   },
   {
     "id": "poi-altenheim-kartause",
-    "name": "Kartäuserhaus (Seniorenheim)",
+    "name": "Clara-Elisen-Stift (Ev. Altenheim)",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.9240, 6.9480],
-    "address": "Kartäuserwall 7"
-  },
-  {
-    "id": "poi-altenheim-chlodwig",
-    "name": "AWO Seniorenzentrum Chlodwigplatz",
-    "type": "altenheim",
-    "district": "neustadt-sued",
-    "coordinates": [50.9215, 6.9540],
-    "address": "Chlodwigplatz 20"
-  },
-  {
-    "id": "poi-altenheim-neustadt",
-    "name": "Caritas Altenzentrum Neustadt",
-    "type": "altenheim",
-    "district": "neustadt-nord",
-    "coordinates": [50.9430, 6.9400],
-    "address": "Hansaring 60"
+    "coordinates": [
+      50.9237,
+      6.9470
+    ],
+    "address": "Kartäuserwall 26"
   },
   {
     "id": "poi-gericht",
-    "name": "Amtsgericht Köln",
+    "name": "Verwaltungsgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9395, 6.9520],
-    "address": "Luxemburger Str. 101"
+    "coordinates": [
+      50.9393,
+      6.9505
+    ],
+    "address": "Appellhofplatz"
   },
   {
     "id": "poi-sparkasse",
-    "name": "Kreissparkasse Köln (Hauptstelle)",
+    "name": "Sparkasse KölnBonn (Hauptstelle)",
     "type": "oeffentliches_gebaeude",
-    "district": "altstadt-nord",
-    "coordinates": [50.9378, 6.9555],
+    "district": "altstadt-sued",
+    "coordinates": [
+      50.9378,
+      6.9555
+    ],
     "address": "Hahnenstraße 57"
   },
   {
     "id": "poi-schauspielhaus",
     "name": "Schauspiel Köln",
     "type": "oeffentliches_gebaeude",
-    "district": "altstadt-sued",
-    "coordinates": [50.9300, 6.9490],
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.9389,
+      6.9493
+    ],
     "address": "Offenbachplatz"
+  },
+  {
+    "id": "poi-st-marien",
+    "name": "Cellitinnen-Krankenhaus St. Marien",
+    "type": "krankenhaus",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.94751,
+      6.96221
+    ],
+    "address": "Kunibertskloster 11-13"
+  },
+  {
+    "id": "poi-seniorenhaus-st-maria",
+    "name": "Seniorenhaus St. Maria (Cellitinnen)",
+    "type": "altenheim",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.938,
+      6.958
+    ],
+    "address": "Schwalbengasse 3-5"
+  },
+  {
+    "id": "poi-residenz-am-dom",
+    "name": "Residenz am Dom (Seniorenresidenz)",
+    "type": "altenheim",
+    "district": "altstadt-nord",
+    "coordinates": [
+      50.94319,
+      6.95414
+    ],
+    "address": "An den Dominikanern 6-8"
   }
 ]

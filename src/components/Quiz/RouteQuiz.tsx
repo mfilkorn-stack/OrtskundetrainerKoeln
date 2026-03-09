@@ -115,6 +115,8 @@ export function RouteQuiz({ streets, districts }: RouteQuizProps) {
       <QuizMap
         routeStart={rq?.start.coordinates}
         routeEnd={rq?.end.coordinates}
+        routeStartLabel={rq ? `Von: ${rq.start.name}` : undefined}
+        routeEndLabel={rq ? `Nach: ${rq.end.name}` : undefined}
         routeLine={showRoute ? routeLine : null}
         districts={districts}
       />
