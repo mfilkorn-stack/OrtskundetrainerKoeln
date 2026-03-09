@@ -83,7 +83,7 @@
     "district": "altstadt-nord",
     "coordinates": [
       50.9393,
-      6.9500
+      6.95
     ],
     "address": "Offenbachplatz"
   },
@@ -115,8 +115,8 @@
     "type": "altenheim",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9237,
-      6.9470
+      50.92632,
+      6.94987
     ],
     "address": "Kartäuserwall 26"
   },
