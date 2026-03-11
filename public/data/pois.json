@@ -5,8 +5,8 @@
     "type": "krankenhaus",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9252,
-      6.9193
+      50.92465,
+      6.92559
     ],
     "address": "Kerpener Str. 62"
   },
@@ -16,8 +16,8 @@
     "type": "krankenhaus",
     "district": "altstadt-sued",
     "coordinates": [
-      50.92487,
-      6.95702
+      50.92564,
+      6.9571
     ],
     "address": "Jakobstraße 27-31"
   },
@@ -38,8 +38,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
     "coordinates": [
-      50.93375,
-      6.95388
+      50.93294,
+      6.95049
     ],
     "address": "Agrippastraße 18"
   },
@@ -60,8 +60,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.94278,
-      6.95907
+      50.94254,
+      6.95855
     ],
     "address": "Trankgasse 11"
   },
@@ -93,8 +93,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9392,
-      6.9545
+      50.93855,
+      6.95737
     ],
     "address": "Laurenzplatz 1-3"
   },
@@ -104,8 +104,8 @@
     "type": "altenheim",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9248,
-      6.9558
+      50.92357,
+      6.96504
     ],
     "address": "Severinswall 43"
   },
@@ -115,8 +115,8 @@
     "type": "altenheim",
     "district": "neustadt-sued",
     "coordinates": [
-      50.92632,
-      6.94987
+      50.93307,
+      6.93605
     ],
     "address": "Kartäuserwall 26"
   },
@@ -126,8 +126,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9393,
-      6.9505
+      50.94061,
+      6.95193
     ],
     "address": "Appellhofplatz"
   },
@@ -137,8 +137,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9378,
-      6.9555
+      50.93541,
+      6.94095
     ],
     "address": "Hahnenstraße 57"
   },
@@ -148,8 +148,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9389,
-      6.9493
+      50.93777,
+      6.95328
     ],
     "address": "Offenbachplatz"
   },
@@ -159,8 +159,8 @@
     "type": "krankenhaus",
     "district": "altstadt-nord",
     "coordinates": [
-      50.94751,
-      6.96221
+      50.94005,
+      6.94913
     ],
     "address": "Kunibertskloster 11-13"
   },
@@ -181,8 +181,8 @@
     "type": "altenheim",
     "district": "altstadt-nord",
     "coordinates": [
-      50.94319,
-      6.95414
+      50.94284,
+      6.95415
     ],
     "address": "An den Dominikanern 6-8"
   },
@@ -192,8 +192,8 @@
     "type": "kirche",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9376,
-      6.9614
+      50.93984,
+      6.96101
     ],
     "address": "An Groß St. Martin 9"
   },
@@ -203,8 +203,8 @@
     "type": "kirche",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9407,
-      6.9536
+      50.94205,
+      6.95515
     ],
     "address": "Komödienstraße 6-8"
   },
@@ -214,8 +214,8 @@
     "type": "kirche",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9399,
-      6.9534
+      50.94306,
+      6.95666
     ],
     "address": "Marzellenstraße 26"
   },
@@ -247,8 +247,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9367,
-      6.9584
+      50.93719,
+      6.95748
     ],
     "address": "Martinstraße 29-37"
   },
@@ -258,8 +258,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9393,
-      6.9569
+      50.93999,
+      6.95731
     ],
     "address": "Am Hof"
   },
@@ -269,8 +269,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9408,
-      6.9597
+      50.94024,
+      6.95883
     ],
     "address": "Roncalliplatz 4"
   },
@@ -280,8 +280,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9383,
-      6.9585
+      50.93736,
+      6.95866
     ],
     "address": "Obenmarspforten 40"
   },
@@ -291,8 +291,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9408,
-      6.9617
+      50.94062,
+      6.96082
     ],
     "address": "Bischofsgartenstraße 1"
   },
@@ -302,8 +302,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9393,
-      6.9505
+      50.94056,
+      6.95024
     ],
     "address": "Appellhofplatz 23-25"
   },
@@ -335,8 +335,8 @@
     "type": "hotel",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9418,
-      6.9573
+      50.94216,
+      6.95634
     ],
     "address": "Domplatz/Trankgasse 1-5"
   },
@@ -346,8 +346,8 @@
     "type": "hotel",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9408,
-      6.9568
+      50.94158,
+      6.95598
     ],
     "address": "Domkloster 2a"
   },
@@ -357,8 +357,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9396,
-      6.9515
+      50.93895,
+      6.95116
     ],
     "address": "Breite Straße"
   },
@@ -368,8 +368,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9369,
-      6.9606
+      50.93709,
+      6.96195
     ],
     "address": "Eisenmarkt 2-4"
   },
@@ -379,8 +379,8 @@
     "type": "kultur",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9387,
-      6.9513
+      50.94088,
+      6.94741
     ],
     "address": "Zeughausstraße 1-3"
   },
@@ -390,8 +390,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9383,
-      6.9608
+      50.9392,
+      6.95962
     ],
     "address": "Alter Markt"
   },
@@ -401,8 +401,8 @@
     "type": "kirche",
     "district": "altstadt-nord",
     "coordinates": [
-      50.9413,
-      6.9455
+      50.94324,
+      6.94591
     ],
     "address": "Gereonsdriesch 2"
   },
@@ -412,8 +412,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9335,
-      6.9596
+      50.9346,
+      6.95841
     ],
     "address": "Kasinostraße 6"
   },
@@ -423,8 +423,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9342,
-      6.9486
+      50.9319,
+      6.95685
     ],
     "address": "Georgplatz/Waidmarkt"
   },
@@ -434,8 +434,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9308,
-      6.9618
+      50.93301,
+      6.96261
     ],
     "address": "An Lyskirchen 12"
   },
@@ -445,8 +445,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9232,
-      6.9574
+      50.92352,
+      6.95976
     ],
     "address": "Severinskirchplatz 1"
   },
@@ -456,8 +456,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9285,
-      6.9425
+      50.92855,
+      6.94799
     ],
     "address": "Am Pantaleonsberg 2"
   },
@@ -467,8 +467,8 @@
     "type": "kirche",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9358,
-      6.9438
+      50.9366,
+      6.94499
     ],
     "address": "Neumarkt 30"
   },
@@ -478,8 +478,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9227,
-      6.9571
+      50.922,
+      6.95921
     ],
     "address": "Chlodwigplatz"
   },
@@ -500,8 +500,8 @@
     "type": "kultur",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9318,
-      6.9643
+      50.9327,
+      6.96312
     ],
     "address": "Am Schokoladenmuseum 1a"
   },
@@ -544,8 +544,8 @@
     "type": "hotel",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9349,
-      6.9635
+      50.9359,
+      6.95985
     ],
     "address": "Heumarkt 20"
   },
@@ -566,8 +566,8 @@
     "type": "kultur",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9338,
-      6.9445
+      50.94026,
+      6.95572
     ],
     "address": "An der Rechtschule"
   },
@@ -610,8 +610,8 @@
     "type": "kultur",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9288,
-      6.9642
+      50.92581,
+      6.96629
     ],
     "address": "Im Zollhafen 1"
   },
@@ -621,8 +621,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9348,
-      6.9466
+      50.93665,
+      6.94594
     ],
     "address": "Neumarkt 2"
   },
@@ -643,8 +643,8 @@
     "type": "wahrzeichen",
     "district": "altstadt-sued",
     "coordinates": [
-      50.9355,
-      6.9615
+      50.9357,
+      6.95992
     ],
     "address": "Heumarkt"
   },
@@ -665,8 +665,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9485,
-      6.9395
+      50.9476,
+      6.9446
     ],
     "address": "Im MediaPark 5"
   },
@@ -676,8 +676,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9465,
-      6.9445
+      50.94659,
+      6.94551
     ],
     "address": "Hansaring 97"
   },
@@ -731,8 +731,8 @@
     "type": "schule",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9395,
-      6.9385
+      50.93619,
+      6.94406
     ],
     "address": "Biggestraße 2"
   },
@@ -786,8 +786,8 @@
     "type": "kirche",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9445,
-      6.9395
+      50.94381,
+      6.93854
     ],
     "address": "Dorothee-Sölle-Platz"
   },
@@ -830,8 +830,8 @@
     "type": "hotel",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9445,
-      6.9365
+      50.94019,
+      6.94556
     ],
     "address": "Helenenstraße 14"
   },
@@ -841,8 +841,8 @@
     "type": "hotel",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9475,
-      6.9385
+      50.94038,
+      6.96949
     ],
     "address": "Kennedy-Ufer 2a"
   },
@@ -863,8 +863,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9465,
-      6.9315
+      50.94478,
+      6.92779
     ],
     "address": "Innere Kanalstraße"
   },
@@ -874,8 +874,8 @@
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9425,
-      6.9455
+      50.9388,
+      6.95535
     ],
     "address": "Heliosstraße 63"
   },
@@ -907,8 +907,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9435,
-      6.9455
+      50.94052,
+      6.95578
     ],
     "address": "Wallrafplatz"
   },
@@ -918,8 +918,8 @@
     "type": "schule",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9415,
-      6.9365
+      50.94542,
+      6.93872
     ],
     "address": "Gilbachstraße 20"
   },
@@ -929,8 +929,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-nord",
     "coordinates": [
-      50.9485,
-      6.9505
+      50.95075,
+      6.95916
     ],
     "address": "Ebertplatz"
   },
@@ -984,8 +984,8 @@
     "type": "kultur",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9225,
-      6.9395
+      50.92135,
+      6.94942
     ],
     "address": "Volksgartenstraße 25"
   },
@@ -1017,8 +1017,8 @@
     "type": "schule",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9265,
-      6.9355
+      50.93053,
+      6.92345
     ],
     "address": "Leyendeckerstraße 14"
   },
@@ -1050,8 +1050,8 @@
     "type": "wahrzeichen",
     "district": "neustadt-sued",
     "coordinates": [
-      50.9285,
-      6.9395
+      50.92899,
+      6.94217
     ],
     "address": "Barbarossaplatz"
   },
