@@ -18,9 +18,10 @@ export function ProgressDashboard({ streets }: ProgressDashboardProps) {
 
     const learnedHaupt = Object.keys(progress.learn.hauptverkehr.seen).length;
     const learnedSonstige = Object.keys(progress.learn.sonstige.seen).length;
+    const learnedNahverkehr = Object.keys(progress.learn.nahverkehr.seen).length;
     const learnedPOI = Object.keys(progress.learn.poi.seen).length;
 
-    return { totalAsked, totalCorrect, streetsQuizzed, accuracy, learnedHaupt, learnedSonstige, learnedPOI };
+    return { totalAsked, totalCorrect, streetsQuizzed, accuracy, learnedHaupt, learnedSonstige, learnedNahverkehr, learnedPOI };
   }, [progress]);
 
   return (
@@ -52,6 +53,10 @@ export function ProgressDashboard({ streets }: ProgressDashboardProps) {
         <div className="stat-card">
           <div className="stat-value">{stats.learnedSonstige}</div>
           <div className="stat-label">Sonstige gelernt</div>
+        </div>
+        <div className="stat-card">
+          <div className="stat-value">{stats.learnedNahverkehr}</div>
+          <div className="stat-label">Nahverkehr gelernt</div>
         </div>
         <div className="stat-card">
           <div className="stat-value">{stats.learnedPOI}</div>

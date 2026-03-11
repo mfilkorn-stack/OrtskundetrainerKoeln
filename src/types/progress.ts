@@ -14,17 +14,19 @@ export interface AppProgress {
   learn: {
     hauptverkehr: LearnProgress;
     sonstige: LearnProgress;
+    nahverkehr: LearnProgress;
     poi: LearnProgress;
   };
   totalSessions: number;
 }
 
 export const DEFAULT_PROGRESS: AppProgress = {
-  version: 1,
+  version: 2,
   streets: {},
   learn: {
     hauptverkehr: { seen: {} },
     sonstige: { seen: {} },
+    nahverkehr: { seen: {} },
     poi: { seen: {} },
   },
   totalSessions: 0,

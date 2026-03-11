@@ -3,7 +3,7 @@ import { useQuizContext } from "../../context/QuizContext";
 import { useProgress } from "../../hooks/useProgress";
 import { QuizMap } from "../Map/QuizMap";
 import { pickOne } from "../../utils/random";
-import { distanceToPolyline, getStreetCoordinates } from "../../utils/geo";
+import { distanceMeters, distanceToPolyline, getStreetCoordinates } from "../../utils/geo";
 import type { Street } from "../../types/street";
 
 interface NameToMapProps {
@@ -41,8 +41,10 @@ export function NameToMap({ streets, districts }: NameToMapProps) {
 
   const handleSubmit = () => {
     if (state.answered || !state.currentQuestion || !userMarker) return;
-    const coords = getStreetCoordinates(state.currentQuestion.targetStreet.geometry);
-    const dist = distanceToPolyline(userMarker[0], userMarker[1], coords);
+    const geom = state.currentQuestion.targetStreet.geometry;
+    const dist = geom.type === "Point"
+      ? distanceMeters(userMarker[0], userMarker[1], state.currentQuestion.targetStreet.center[0], state.currentQuestion.targetStreet.center[1])
+      : distanceToPolyline(userMarker[0], userMarker[1], getStreetCoordinates(geom));
     setDistance(Math.round(dist));
     const correct = dist < 50;
     dispatch({ type: "ANSWER", correct });
@@ -72,7 +74,11 @@ export function NameToMap({ streets, districts }: NameToMapProps) {
         {q && (
           <div className="street-name-display">{q.targetStreet.name}</div>
         )}
-        <div className="question-text">Klicke auf die Karte, wo diese Straße liegt!</div>
+        <div className="question-text">
+          {q?.targetStreet.category === "nahverkehr"
+            ? "Klicke auf die Karte, wo diese Haltestelle liegt!"
+            : "Klicke auf die Karte, wo diese Straße liegt!"}
+        </div>
 
         {!state.answered && userMarker && (
           <button className="btn btn-primary" onClick={handleSubmit}>

@@ -67,6 +67,36 @@ export async function loadAllStreets(): Promise<Street[]> {
   });
 }
 
+interface StationData {
+  id: string;
+  name: string;
+  district: District;
+  stationType: string;
+  coordinates: [number, number];
+}
+
+export async function loadStations(): Promise<Street[]> {
+  try {
+    const response = await fetch(`${base}data/stations.json`);
+    if (!response.ok) {
+      console.warn(`Failed to load stations.json: ${response.status}`);
+      return [];
+    }
+    const stations: StationData[] = await response.json();
+    return stations.map((s) => ({
+      id: s.id,
+      name: s.name,
+      district: s.district,
+      category: "nahverkehr" as const,
+      geometry: { type: "Point" as const, coordinates: [s.coordinates[1], s.coordinates[0]] },
+      center: s.coordinates,
+    }));
+  } catch (err) {
+    console.warn("Error loading stations:", err);
+    return [];
+  }
+}
+
 export async function loadPOIs(): Promise<PointOfInterest[]> {
   try {
     const response = await fetch(`${base}data/pois.json`);

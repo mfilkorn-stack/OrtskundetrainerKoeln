@@ -1,13 +1,13 @@
 export type District = "altstadt-nord" | "altstadt-sued" | "neustadt-nord" | "neustadt-sued";
 
-export type StreetCategory = "hauptverkehr" | "sonstige";
+export type StreetCategory = "hauptverkehr" | "sonstige" | "nahverkehr";
 
 export interface Street {
   id: string;
   name: string;
   district: District;
   category: StreetCategory;
-  geometry: GeoJSON.LineString | GeoJSON.MultiLineString;
+  geometry: GeoJSON.LineString | GeoJSON.MultiLineString | GeoJSON.Point;
   center: [number, number]; // [lat, lng]
 }
 

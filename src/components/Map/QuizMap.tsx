@@ -34,6 +34,7 @@ function coloredMarkerSvg(color: string) {
 
 let greenIcon: L.Icon;
 let redIcon: L.Icon;
+let goldIcon: L.Icon;
 try {
   greenIcon = new L.Icon({
     iconUrl: coloredMarkerSvg("#2e7d32"),
@@ -49,10 +50,19 @@ try {
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
   });
+  goldIcon = new L.Icon({
+    iconUrl: coloredMarkerSvg("#C5A23C"),
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+  });
 } catch (e) {
   console.warn("Leaflet custom icon init failed:", e);
-  greenIcon = new L.Icon({ iconUrl: markerIcon, shadowUrl: markerShadow, iconSize: [25, 41], iconAnchor: [12, 41] });
-  redIcon = new L.Icon({ iconUrl: markerIcon, shadowUrl: markerShadow, iconSize: [25, 41], iconAnchor: [12, 41] });
+  const fallback = new L.Icon({ iconUrl: markerIcon, shadowUrl: markerShadow, iconSize: [25, 41], iconAnchor: [12, 41] });
+  greenIcon = fallback;
+  redIcon = fallback;
+  goldIcon = fallback;
 }
 
 interface QuizMapProps {
@@ -81,7 +91,11 @@ function MapClickHandler({ onClick }: { onClick: (latlng: [number, number]) => v
 
 /** Converts a Street geometry to a Leaflet LatLngBounds. */
 function streetBounds(street: Street): L.LatLngBounds {
-  const positions = toLeafletPositions(street.geometry);
+  if (street.geometry.type === "Point") {
+    const [lat, lng] = street.center;
+    return L.latLngBounds([L.latLng(lat, lng)]);
+  }
+  const positions = toLeafletPositions(street.geometry as GeoJSON.LineString | GeoJSON.MultiLineString);
   // Flatten nested arrays (MultiLineString produces [number, number][][])
   const flat: [number, number][] = Array.isArray(positions[0]?.[0])
     ? (positions as [number, number][][]).flat()
@@ -108,11 +122,21 @@ function FitBounds({ highlightStreet, showCorrectStreet, poi, routeStart, routeE
 
     // Priority: showCorrectStreet (answer reveal) > highlightStreet > route > POI
     if (showCorrectStreet?.geometry) {
+      if (showCorrectStreet.geometry.type === "Point") {
+        map.setView(showCorrectStreet.center, 16, { animate: true });
+        prevKey.current = `point-correct-${showCorrectStreet.id}`;
+        return;
+      }
       bounds = streetBounds(showCorrectStreet);
       if (highlightStreet?.geometry) {
         bounds.extend(streetBounds(highlightStreet));
       }
     } else if (highlightStreet?.geometry) {
+      if (highlightStreet.geometry.type === "Point") {
+        map.setView(highlightStreet.center, 16, { animate: true });
+        prevKey.current = `point-${highlightStreet.id}`;
+        return;
+      }
       bounds = streetBounds(highlightStreet);
     } else if (routeLine && routeLine.length > 0) {
       bounds = L.latLngBounds(routeLine.map(([lat, lng]) => L.latLng(lat, lng)));
@@ -191,17 +215,29 @@ export function QuizMap({
         )}
 
         {highlightStreet && highlightStreet.geometry && (
-          <Polyline
-            positions={toLeafletPositions(highlightStreet.geometry)}
-            pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
-          />
+          highlightStreet.geometry.type === "Point" ? (
+            <Marker position={highlightStreet.center} icon={goldIcon}>
+              <Popup>{highlightStreet.name}</Popup>
+            </Marker>
+          ) : (
+            <Polyline
+              positions={toLeafletPositions(highlightStreet.geometry as GeoJSON.LineString | GeoJSON.MultiLineString)}
+              pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
+            />
+          )
         )}
 
         {showCorrectStreet && showCorrectStreet.geometry && (
-          <Polyline
-            positions={toLeafletPositions(showCorrectStreet.geometry)}
-            pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}
-          />
+          showCorrectStreet.geometry.type === "Point" ? (
+            <Marker position={showCorrectStreet.center} icon={greenIcon}>
+              <Popup>{showCorrectStreet.name}</Popup>
+            </Marker>
+          ) : (
+            <Polyline
+              positions={toLeafletPositions(showCorrectStreet.geometry as GeoJSON.LineString | GeoJSON.MultiLineString)}
+              pathOptions={{ color: "#2e7d32", weight: 6, opacity: 0.8 }}
+            />
+          )
         )}
 
         {userMarker && (
