@@ -1,7 +1,7 @@
 import type { District, Street } from "./street";
 
 export type QuizMode = "map-to-name" | "name-to-map" | "multiple-choice" | "route";
-export type LearnSection = "hauptverkehr" | "sonstige" | "poi";
+export type LearnSection = "hauptverkehr" | "sonstige" | "nahverkehr" | "poi";
 export type AppMode = "learn" | "quiz" | "stats";
 export type RouteSubMode = "wache" | "frei";
 

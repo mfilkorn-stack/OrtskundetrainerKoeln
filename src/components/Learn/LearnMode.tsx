@@ -25,6 +25,7 @@ export function LearnMode({ streets, pois, districts }: LearnModeProps) {
     const byDistrict = streets.filter((s) => state.activeDistricts.includes(s.district));
     if (section === "hauptverkehr") return byDistrict.filter((s) => s.category === "hauptverkehr");
     if (section === "sonstige") return byDistrict.filter((s) => s.category === "sonstige");
+    if (section === "nahverkehr") return byDistrict.filter((s) => s.category === "nahverkehr");
     return [];
   }, [streets, state.activeDistricts, section]);
 
@@ -89,6 +90,12 @@ export function LearnMode({ streets, pois, districts }: LearnModeProps) {
           onClick={() => handleSetSection("sonstige")}
         >
           Weitere Straßen
+        </button>
+        <button
+          className={`learn-section-tab ${section === "nahverkehr" ? "active" : ""}`}
+          onClick={() => handleSetSection("nahverkehr")}
+        >
+          Nahverkehr
         </button>
         <button
           className={`learn-section-tab ${section === "poi" ? "active" : ""}`}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import type { Street, PointOfInterest } from "../types/street";
-import { loadAllStreets, loadPOIs } from "../data/loadStreets";
+import { loadAllStreets, loadStations, loadPOIs } from "../data/loadStreets";
 
 export function useStreetData() {
   const [streets, setStreets] = useState<Street[]>([]);
@@ -9,9 +9,9 @@ export function useStreetData() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([loadAllStreets(), loadPOIs()])
-      .then(([loadedStreets, loadedPois]) => {
-        setStreets(loadedStreets);
+    Promise.all([loadAllStreets(), loadStations(), loadPOIs()])
+      .then(([loadedStreets, loadedStations, loadedPois]) => {
+        setStreets([...loadedStreets, ...loadedStations]);
         setPois(loadedPois);
         setLoading(false);
       })
