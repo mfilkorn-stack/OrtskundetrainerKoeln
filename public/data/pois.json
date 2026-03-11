@@ -4,10 +4,7 @@
     "name": "Uniklinik Köln (Notaufnahme)",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [
-      50.9252,
-      6.9193
-    ],
+    "coordinates": [50.9252, 6.9193],
     "address": "Kerpener Str. 62"
   },
   {
@@ -15,10 +12,7 @@
     "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
     "type": "krankenhaus",
     "district": "altstadt-sued",
-    "coordinates": [
-      50.92487,
-      6.95702
-    ],
+    "coordinates": [50.92487, 6.95702],
     "address": "Jakobstraße 27-31"
   },
   {
@@ -26,10 +20,7 @@
     "name": "Historisches Rathaus",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.93801,
-      6.95926
-    ],
+    "coordinates": [50.93801, 6.95926],
     "address": "Rathausplatz 2"
   },
   {
@@ -37,21 +28,15 @@
     "name": "Feuerwache 1 (Innenstadt)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [
-      50.93375,
-      6.95388
-    ],
+    "coordinates": [50.93375, 6.95388],
     "address": "Agrippastraße 18"
   },
   {
     "id": "poi-dom",
     "name": "Kölner Dom",
-    "type": "oeffentliches_gebaeude",
+    "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.94131,
-      6.95811
-    ],
+    "coordinates": [50.94131, 6.95811],
     "address": "Domkloster 4"
   },
   {
@@ -59,32 +44,23 @@
     "name": "Köln Hauptbahnhof",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.94278,
-      6.95907
-    ],
+    "coordinates": [50.94278, 6.95907],
     "address": "Trankgasse 11"
   },
   {
     "id": "poi-museum-ludwig",
     "name": "Museum Ludwig",
-    "type": "oeffentliches_gebaeude",
+    "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.9405,
-      6.962
-    ],
+    "coordinates": [50.9405, 6.962],
     "address": "Heinrich-Böll-Platz"
   },
   {
     "id": "poi-oper",
-    "name": "Oper Köln",
-    "type": "oeffentliches_gebaeude",
+    "name": "Oper Köln (Staatenhaus)",
+    "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.9393,
-      6.95
-    ],
+    "coordinates": [50.9393, 6.95],
     "address": "Offenbachplatz"
   },
   {
@@ -92,10 +68,7 @@
     "name": "Kundenzentrum Innenstadt",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.9392,
-      6.9545
-    ],
+    "coordinates": [50.9392, 6.9545],
     "address": "Laurenzplatz 1-3"
   },
   {
@@ -103,10 +76,7 @@
     "name": "AWO Arnold-Overzier-Haus",
     "type": "altenheim",
     "district": "altstadt-sued",
-    "coordinates": [
-      50.9248,
-      6.9558
-    ],
+    "coordinates": [50.9248, 6.9558],
     "address": "Severinswall 43"
   },
   {
@@ -114,10 +84,7 @@
     "name": "Clara-Elisen-Stift (Ev. Altenheim)",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [
-      50.92632,
-      6.94987
-    ],
+    "coordinates": [50.92632, 6.94987],
     "address": "Kartäuserwall 26"
   },
   {
@@ -125,10 +92,7 @@
     "name": "Verwaltungsgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.9393,
-      6.9505
-    ],
+    "coordinates": [50.9393, 6.9505],
     "address": "Appellhofplatz"
   },
   {
@@ -136,21 +100,15 @@
     "name": "Sparkasse KölnBonn (Hauptstelle)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [
-      50.9378,
-      6.9555
-    ],
+    "coordinates": [50.9378, 6.9555],
     "address": "Hahnenstraße 57"
   },
   {
     "id": "poi-schauspielhaus",
     "name": "Schauspiel Köln",
-    "type": "oeffentliches_gebaeude",
+    "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.9389,
-      6.9493
-    ],
+    "coordinates": [50.9389, 6.9493],
     "address": "Offenbachplatz"
   },
   {
@@ -158,10 +116,7 @@
     "name": "Cellitinnen-Krankenhaus St. Marien",
     "type": "krankenhaus",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.94751,
-      6.96221
-    ],
+    "coordinates": [50.94751, 6.96221],
     "address": "Kunibertskloster 11-13"
   },
   {
@@ -169,10 +124,7 @@
     "name": "Seniorenhaus St. Maria (Cellitinnen)",
     "type": "altenheim",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.938,
-      6.958
-    ],
+    "coordinates": [50.938, 6.958],
     "address": "Schwalbengasse 3-5"
   },
   {
@@ -180,10 +132,739 @@
     "name": "Residenz am Dom (Seniorenresidenz)",
     "type": "altenheim",
     "district": "altstadt-nord",
-    "coordinates": [
-      50.94319,
-      6.95414
-    ],
+    "coordinates": [50.94319, 6.95414],
     "address": "An den Dominikanern 6-8"
+  },
+
+  {
+    "id": "poi-gross-st-martin",
+    "name": "Groß St. Martin",
+    "type": "kirche",
+    "district": "altstadt-nord",
+    "coordinates": [50.9376, 6.9614],
+    "address": "An Groß St. Martin 9"
+  },
+  {
+    "id": "poi-st-andreas",
+    "name": "St. Andreas",
+    "type": "kirche",
+    "district": "altstadt-nord",
+    "coordinates": [50.9407, 6.9536],
+    "address": "Komödienstraße 6-8"
+  },
+  {
+    "id": "poi-st-maria-himmelfahrt",
+    "name": "St. Mariä Himmelfahrt",
+    "type": "kirche",
+    "district": "altstadt-nord",
+    "coordinates": [50.9399, 6.9534],
+    "address": "Marzellenstraße 26"
+  },
+  {
+    "id": "poi-st-ursula",
+    "name": "St. Ursula",
+    "type": "kirche",
+    "district": "altstadt-nord",
+    "coordinates": [50.9445, 6.953],
+    "address": "Ursulaplatz 24"
+  },
+  {
+    "id": "poi-4711-haus",
+    "name": "4711 Haus",
+    "type": "wahrzeichen",
+    "district": "altstadt-nord",
+    "coordinates": [50.9382, 6.949],
+    "address": "Glockengasse 4"
+  },
+  {
+    "id": "poi-guerzenich",
+    "name": "Gürzenich",
+    "type": "wahrzeichen",
+    "district": "altstadt-nord",
+    "coordinates": [50.9367, 6.9584],
+    "address": "Martinstraße 29-37"
+  },
+  {
+    "id": "poi-heinzelmaennchen",
+    "name": "Heinzelmännchenbrunnen",
+    "type": "wahrzeichen",
+    "district": "altstadt-nord",
+    "coordinates": [50.9393, 6.9569],
+    "address": "Am Hof"
+  },
+  {
+    "id": "poi-rmg",
+    "name": "Römisch-Germanisches Museum",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9408, 6.9597],
+    "address": "Roncalliplatz 4"
+  },
+  {
+    "id": "poi-wallraf-richartz",
+    "name": "Wallraf-Richartz-Museum",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9383, 6.9585],
+    "address": "Obenmarspforten 40"
+  },
+  {
+    "id": "poi-philharmonie",
+    "name": "Kölner Philharmonie",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9408, 6.9617],
+    "address": "Bischofsgartenstraße 1"
+  },
+  {
+    "id": "poi-ns-dok",
+    "name": "NS-Dokumentationszentrum (EL-DE-Haus)",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9393, 6.9505],
+    "address": "Appellhofplatz 23-25"
+  },
+  {
+    "id": "poi-kolumba",
+    "name": "Kolumba Kunstmuseum",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9386, 6.955],
+    "address": "Kolumbastraße 4"
+  },
+  {
+    "id": "poi-dreikoenigs-gym",
+    "name": "Dreikönigsgymnasium",
+    "type": "schule",
+    "district": "altstadt-nord",
+    "coordinates": [50.9425, 6.9525],
+    "address": "Escher Straße 247"
+  },
+  {
+    "id": "poi-excelsior",
+    "name": "Excelsior Hotel Ernst",
+    "type": "hotel",
+    "district": "altstadt-nord",
+    "coordinates": [50.9418, 6.9573],
+    "address": "Domplatz/Trankgasse 1-5"
+  },
+  {
+    "id": "poi-dom-hotel",
+    "name": "Dom Hotel",
+    "type": "hotel",
+    "district": "altstadt-nord",
+    "coordinates": [50.9408, 6.9568],
+    "address": "Domkloster 2a"
+  },
+  {
+    "id": "poi-wdr-arkaden",
+    "name": "WDR Arkaden",
+    "type": "wahrzeichen",
+    "district": "altstadt-nord",
+    "coordinates": [50.9396, 6.9515],
+    "address": "Breite Straße"
+  },
+  {
+    "id": "poi-haenneschen",
+    "name": "Hänneschen-Theater",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9369, 6.9606],
+    "address": "Eisenmarkt 2-4"
+  },
+  {
+    "id": "poi-zeughaus",
+    "name": "Zeughaus (Kölnisches Stadtmuseum)",
+    "type": "kultur",
+    "district": "altstadt-nord",
+    "coordinates": [50.9387, 6.9513],
+    "address": "Zeughausstraße 1-3"
+  },
+  {
+    "id": "poi-alter-markt",
+    "name": "Alter Markt",
+    "type": "wahrzeichen",
+    "district": "altstadt-nord",
+    "coordinates": [50.9383, 6.9608],
+    "address": "Alter Markt"
+  },
+  {
+    "id": "poi-st-gereon",
+    "name": "St. Gereon",
+    "type": "kirche",
+    "district": "altstadt-nord",
+    "coordinates": [50.9413, 6.9455],
+    "address": "Gereonsdriesch 2"
+  },
+
+  {
+    "id": "poi-st-maria-kapitol",
+    "name": "St. Maria im Kapitol",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9335, 6.9596],
+    "address": "Kasinostraße 6"
+  },
+  {
+    "id": "poi-st-georg",
+    "name": "St. Georg",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9342, 6.9486],
+    "address": "Georgplatz/Waidmarkt"
+  },
+  {
+    "id": "poi-st-maria-lyskirchen",
+    "name": "St. Maria Lyskirchen",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9308, 6.9618],
+    "address": "An Lyskirchen 12"
+  },
+  {
+    "id": "poi-st-severin",
+    "name": "St. Severin",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9232, 6.9574],
+    "address": "Severinskirchplatz 1"
+  },
+  {
+    "id": "poi-st-pantaleon",
+    "name": "St. Pantaleon",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9285, 6.9425],
+    "address": "Am Pantaleonsberg 2"
+  },
+  {
+    "id": "poi-st-aposteln",
+    "name": "St. Aposteln",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.9358, 6.9438],
+    "address": "Neumarkt 30"
+  },
+  {
+    "id": "poi-severinstor",
+    "name": "Severinstor",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.9227, 6.9571],
+    "address": "Chlodwigplatz"
+  },
+  {
+    "id": "poi-bayenturm",
+    "name": "Bayenturm",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.9245, 6.964],
+    "address": "Bayenstraße"
+  },
+  {
+    "id": "poi-schokomuseum",
+    "name": "Schokoladenmuseum",
+    "type": "kultur",
+    "district": "altstadt-sued",
+    "coordinates": [50.9318, 6.9643],
+    "address": "Am Schokoladenmuseum 1a"
+  },
+  {
+    "id": "poi-malakoff",
+    "name": "Malakoff-Turm",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.932, 6.9655],
+    "address": "Rheinauhafen"
+  },
+  {
+    "id": "poi-fwg",
+    "name": "Friedrich-Wilhelm-Gymnasium",
+    "type": "schule",
+    "district": "altstadt-sued",
+    "coordinates": [50.929, 6.9508],
+    "address": "Severinstraße 241"
+  },
+  {
+    "id": "poi-kas",
+    "name": "Kaiserin-Augusta-Schule",
+    "type": "schule",
+    "district": "altstadt-sued",
+    "coordinates": [50.9265, 6.948],
+    "address": "Georgsplatz 10"
+  },
+  {
+    "id": "poi-maritim",
+    "name": "Maritim Hotel Köln",
+    "type": "hotel",
+    "district": "altstadt-sued",
+    "coordinates": [50.9349, 6.9635],
+    "address": "Heumarkt 20"
+  },
+  {
+    "id": "poi-rautenstrauch",
+    "name": "Rautenstrauch-Joest-Museum",
+    "type": "kultur",
+    "district": "altstadt-sued",
+    "coordinates": [50.934, 6.943],
+    "address": "Cäcilienstraße 29-33"
+  },
+  {
+    "id": "poi-makk",
+    "name": "MAKK (Museum für Angewandte Kunst)",
+    "type": "kultur",
+    "district": "altstadt-sued",
+    "coordinates": [50.9338, 6.9445],
+    "address": "An der Rechtschule"
+  },
+  {
+    "id": "poi-schnuetgen",
+    "name": "Museum Schnütgen",
+    "type": "kultur",
+    "district": "altstadt-sued",
+    "coordinates": [50.934, 6.9435],
+    "address": "Cäcilienstraße 29-33"
+  },
+  {
+    "id": "poi-polizei-waidmarkt",
+    "name": "Polizeipräsidium Köln (ehem. Waidmarkt)",
+    "type": "oeffentliches_gebaeude",
+    "district": "altstadt-sued",
+    "coordinates": [50.934, 6.954],
+    "address": "Waidmarkt 11"
+  },
+  {
+    "id": "poi-overstolzenhaus",
+    "name": "Overstolzenhaus",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.9344, 6.958],
+    "address": "Rheingasse 8"
+  },
+  {
+    "id": "poi-sport-olympia",
+    "name": "Deutsches Sport & Olympia Museum",
+    "type": "kultur",
+    "district": "altstadt-sued",
+    "coordinates": [50.9288, 6.9642],
+    "address": "Im Zollhafen 1"
+  },
+  {
+    "id": "poi-neumarkt-galerie",
+    "name": "Neumarkt Galerie",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.9348, 6.9466],
+    "address": "Neumarkt 2"
+  },
+  {
+    "id": "poi-hotel-wasserturm",
+    "name": "Hotel im Wasserturm",
+    "type": "hotel",
+    "district": "altstadt-sued",
+    "coordinates": [50.9318, 6.941],
+    "address": "Kaygasse 2"
+  },
+  {
+    "id": "poi-heumarkt",
+    "name": "Heumarkt",
+    "type": "wahrzeichen",
+    "district": "altstadt-sued",
+    "coordinates": [50.9355, 6.9615],
+    "address": "Heumarkt"
+  },
+  {
+    "id": "poi-st-peter",
+    "name": "St. Peter (Kunststation)",
+    "type": "kirche",
+    "district": "altstadt-sued",
+    "coordinates": [50.933, 6.9575],
+    "address": "Jabachstraße 1"
+  },
+
+  {
+    "id": "poi-mediapark",
+    "name": "MediaPark / Kölnturm",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9485, 6.9395],
+    "address": "Im MediaPark 5"
+  },
+  {
+    "id": "poi-hansahochhaus",
+    "name": "Hansahochhaus",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9465, 6.9445],
+    "address": "Hansaring 97"
+  },
+  {
+    "id": "poi-olg",
+    "name": "Oberlandesgericht Köln",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-nord",
+    "coordinates": [50.948, 6.9465],
+    "address": "Reichenspergerplatz 1"
+  },
+  {
+    "id": "poi-st-agnes",
+    "name": "St. Agnes",
+    "type": "kirche",
+    "district": "neustadt-nord",
+    "coordinates": [50.948, 6.9455],
+    "address": "Neusser Platz 18"
+  },
+  {
+    "id": "poi-stadtgarten",
+    "name": "Stadtgarten Köln",
+    "type": "kultur",
+    "district": "neustadt-nord",
+    "coordinates": [50.943, 6.9375],
+    "address": "Venloer Straße 40"
+  },
+  {
+    "id": "poi-comedia",
+    "name": "Comedia Theater",
+    "type": "kultur",
+    "district": "neustadt-nord",
+    "coordinates": [50.9425, 6.938],
+    "address": "Vondelstraße 4-8"
+  },
+  {
+    "id": "poi-apostel-gym",
+    "name": "Apostelgymnasium",
+    "type": "schule",
+    "district": "neustadt-nord",
+    "coordinates": [50.9395, 6.9385],
+    "address": "Biggestraße 2"
+  },
+  {
+    "id": "poi-georg-buechner-gym",
+    "name": "Georg-Büchner-Gymnasium",
+    "type": "schule",
+    "district": "neustadt-nord",
+    "coordinates": [50.942, 6.939],
+    "address": "Voßstraße 1"
+  },
+  {
+    "id": "poi-gerling-quartier",
+    "name": "Gerling-Quartier",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.944, 6.9455],
+    "address": "Gereonshof"
+  },
+  {
+    "id": "poi-eigelsteintorburg",
+    "name": "Eigelsteintorburg",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.947, 6.952],
+    "address": "Eigelstein"
+  },
+  {
+    "id": "poi-fort-x",
+    "name": "Fort X (Preußische Festung)",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.951, 6.942],
+    "address": "Neusser Wall"
+  },
+  {
+    "id": "poi-christuskirche",
+    "name": "Christuskirche (Evangelisch)",
+    "type": "kirche",
+    "district": "neustadt-nord",
+    "coordinates": [50.9445, 6.9395],
+    "address": "Dorothee-Sölle-Platz"
+  },
+  {
+    "id": "poi-st-gertrud",
+    "name": "St. Gertrud",
+    "type": "kirche",
+    "district": "neustadt-nord",
+    "coordinates": [50.945, 6.941],
+    "address": "Krefelder Straße 57"
+  },
+  {
+    "id": "poi-oberfinanzdirektion",
+    "name": "Oberfinanzdirektion Köln",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-nord",
+    "coordinates": [50.9475, 6.947],
+    "address": "Riehler Platz"
+  },
+  {
+    "id": "poi-skulpturenpark",
+    "name": "Skulpturenpark Köln",
+    "type": "kultur",
+    "district": "neustadt-nord",
+    "coordinates": [50.95, 6.9475],
+    "address": "Riehler Straße"
+  },
+  {
+    "id": "poi-pullman",
+    "name": "Pullman Cologne",
+    "type": "hotel",
+    "district": "neustadt-nord",
+    "coordinates": [50.9445, 6.9365],
+    "address": "Helenenstraße 14"
+  },
+  {
+    "id": "poi-hyatt",
+    "name": "Hyatt Regency Köln",
+    "type": "hotel",
+    "district": "neustadt-nord",
+    "coordinates": [50.9475, 6.9385],
+    "address": "Kennedy-Ufer 2a"
+  },
+  {
+    "id": "poi-friesenplatz",
+    "name": "Friesenplatz",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.942, 6.942],
+    "address": "Friesenplatz"
+  },
+  {
+    "id": "poi-colonius",
+    "name": "Colonius (Fernsehturm)",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9465, 6.9315],
+    "address": "Innere Kanalstraße"
+  },
+  {
+    "id": "poi-bezirksrathaus-innenstadt",
+    "name": "Bezirksrathaus Innenstadt",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-nord",
+    "coordinates": [50.9425, 6.9455],
+    "address": "Heliosstraße 63"
+  },
+  {
+    "id": "poi-belgisches-viertel",
+    "name": "Belgisches Viertel (Brüsseler Platz)",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9395, 6.935],
+    "address": "Brüsseler Platz"
+  },
+  {
+    "id": "poi-altenheim-hansaring",
+    "name": "Seniorenzentrum Hansaring",
+    "type": "altenheim",
+    "district": "neustadt-nord",
+    "coordinates": [50.946, 6.9435],
+    "address": "Hansaring"
+  },
+  {
+    "id": "poi-wdr-funkhaus",
+    "name": "WDR Funkhaus",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9435, 6.9455],
+    "address": "Wallrafplatz"
+  },
+  {
+    "id": "poi-offenbachplatz-gym",
+    "name": "Montessori-Grundschule Gilbachstraße",
+    "type": "schule",
+    "district": "neustadt-nord",
+    "coordinates": [50.9415, 6.9365],
+    "address": "Gilbachstraße 20"
+  },
+  {
+    "id": "poi-ebertplatz",
+    "name": "Ebertplatz",
+    "type": "wahrzeichen",
+    "district": "neustadt-nord",
+    "coordinates": [50.9485, 6.9505],
+    "address": "Ebertplatz"
+  },
+
+  {
+    "id": "poi-lutherkirche",
+    "name": "Lutherkirche",
+    "type": "kirche",
+    "district": "neustadt-sued",
+    "coordinates": [50.928, 6.941],
+    "address": "Martin-Luther-Platz 2"
+  },
+  {
+    "id": "poi-st-paul",
+    "name": "St. Paul",
+    "type": "kirche",
+    "district": "neustadt-sued",
+    "coordinates": [50.93, 6.9365],
+    "address": "Pauliplatz"
+  },
+  {
+    "id": "poi-trinitatiskirche",
+    "name": "Trinitatiskirche",
+    "type": "kirche",
+    "district": "neustadt-sued",
+    "coordinates": [50.932, 6.935],
+    "address": "Filzengraben 4"
+  },
+  {
+    "id": "poi-volksgarten",
+    "name": "Volksgarten",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.922, 6.9385],
+    "address": "Volksgartenstraße"
+  },
+  {
+    "id": "poi-orangerie",
+    "name": "Orangerie im Volksgarten",
+    "type": "kultur",
+    "district": "neustadt-sued",
+    "coordinates": [50.9225, 6.9395],
+    "address": "Volksgartenstraße 25"
+  },
+  {
+    "id": "poi-suedstadion",
+    "name": "Südstadion",
+    "type": "kultur",
+    "district": "neustadt-sued",
+    "coordinates": [50.918, 6.935],
+    "address": "Vorgebirgsstraße"
+  },
+  {
+    "id": "poi-schiller-gym",
+    "name": "Schiller-Gymnasium",
+    "type": "schule",
+    "district": "neustadt-sued",
+    "coordinates": [50.925, 6.934],
+    "address": "Nikolausplatz 5"
+  },
+  {
+    "id": "poi-hildegard-gym",
+    "name": "Hildegard-von-Bingen-Gymnasium",
+    "type": "schule",
+    "district": "neustadt-sued",
+    "coordinates": [50.9265, 6.9355],
+    "address": "Leyendeckerstraße 14"
+  },
+  {
+    "id": "poi-humboldt-gym",
+    "name": "Humboldt-Gymnasium",
+    "type": "schule",
+    "district": "neustadt-sued",
+    "coordinates": [50.924, 6.942],
+    "address": "Kartäuserwall 40"
+  },
+  {
+    "id": "poi-bahnhof-sued",
+    "name": "Bahnhof Köln Süd",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-sued",
+    "coordinates": [50.925, 6.938],
+    "address": "Mozartstraße"
+  },
+  {
+    "id": "poi-barbarossaplatz",
+    "name": "Barbarossaplatz",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.9285, 6.9395],
+    "address": "Barbarossaplatz"
+  },
+  {
+    "id": "poi-rudolfplatz",
+    "name": "Rudolfplatz / Hahnentorburg",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.935, 6.9395],
+    "address": "Rudolfplatz"
+  },
+  {
+    "id": "poi-aachener-weiher",
+    "name": "Aachener Weiher",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.934, 6.932],
+    "address": "Aachener Straße"
+  },
+  {
+    "id": "poi-rhenania",
+    "name": "Rhenania (Kulturfabrik)",
+    "type": "kultur",
+    "district": "neustadt-sued",
+    "coordinates": [50.921, 6.944],
+    "address": "Bayardsgasse 9"
+  },
+  {
+    "id": "poi-cbt-wohnhaus",
+    "name": "CBT-Wohnhaus Hildegard von Bingen",
+    "type": "altenheim",
+    "district": "neustadt-sued",
+    "coordinates": [50.926, 6.936],
+    "address": "Leyendeckerstraße"
+  },
+  {
+    "id": "poi-kwb",
+    "name": "Kölner Wohnungsbaugesellschaft (GAG)",
+    "type": "oeffentliches_gebaeude",
+    "district": "neustadt-sued",
+    "coordinates": [50.924, 6.938],
+    "address": "Josef-Lammerting-Allee 20-22"
+  },
+  {
+    "id": "poi-suedstadt-krankenhaus",
+    "name": "St. Elisabeth-Krankenhaus",
+    "type": "krankenhaus",
+    "district": "neustadt-sued",
+    "coordinates": [50.922, 6.935],
+    "address": "Werthmannstraße 1"
+  },
+  {
+    "id": "poi-eifelplatz",
+    "name": "Eifelplatz",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.927, 6.932],
+    "address": "Eifelstraße"
+  },
+  {
+    "id": "poi-zuelp-str-gym",
+    "name": "Gymnasium Kreuzgasse",
+    "type": "schule",
+    "district": "neustadt-sued",
+    "coordinates": [50.932, 6.932],
+    "address": "Vogelsanger Straße 1"
+  },
+  {
+    "id": "poi-suedfriedhof",
+    "name": "Südfriedhof (Melaten Süd)",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.919, 6.932],
+    "address": "Höninger Weg"
+  },
+  {
+    "id": "poi-fitnespark-sued",
+    "name": "Innerer Grüngürtel Süd",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.926, 6.93],
+    "address": "Innerer Grüngürtel"
+  },
+  {
+    "id": "poi-sachsenring",
+    "name": "Sachsenring / Salierring",
+    "type": "wahrzeichen",
+    "district": "neustadt-sued",
+    "coordinates": [50.926, 6.945],
+    "address": "Sachsenring"
+  },
+  {
+    "id": "poi-altenheim-chlodwig",
+    "name": "Seniorenheim Am Chlodwigplatz",
+    "type": "altenheim",
+    "district": "neustadt-sued",
+    "coordinates": [50.923, 6.948],
+    "address": "Chlodwigplatz"
   }
 ]

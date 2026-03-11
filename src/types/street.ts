@@ -14,7 +14,7 @@ export interface Street {
 export interface PointOfInterest {
   id: string;
   name: string;
-  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude";
+  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude" | "schule" | "kirche" | "kultur" | "wahrzeichen" | "hotel";
   district: District;
   coordinates: [number, number]; // [lat, lng]
   address?: string;
