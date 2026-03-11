@@ -74,7 +74,11 @@ export function NameToMap({ streets, districts }: NameToMapProps) {
         {q && (
           <div className="street-name-display">{q.targetStreet.name}</div>
         )}
-        <div className="question-text">Klicke auf die Karte, wo diese Straße liegt!</div>
+        <div className="question-text">
+          {q?.targetStreet.category === "nahverkehr"
+            ? "Klicke auf die Karte, wo diese Haltestelle liegt!"
+            : "Klicke auf die Karte, wo diese Straße liegt!"}
+        </div>
 
         {!state.answered && userMarker && (
           <button className="btn btn-primary" onClick={handleSubmit}>
