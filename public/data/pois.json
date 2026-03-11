@@ -4,7 +4,10 @@
     "name": "Uniklinik Köln (Notaufnahme)",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [50.9252, 6.9193],
+    "coordinates": [
+      50.9252,
+      6.9193
+    ],
     "address": "Kerpener Str. 62"
   },
   {
@@ -12,7 +15,10 @@
     "name": "Krankenhaus der Augustinerinnen (Severinsklösterchen)",
     "type": "krankenhaus",
     "district": "altstadt-sued",
-    "coordinates": [50.92487, 6.95702],
+    "coordinates": [
+      50.92487,
+      6.95702
+    ],
     "address": "Jakobstraße 27-31"
   },
   {
@@ -20,7 +26,10 @@
     "name": "Historisches Rathaus",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.93801, 6.95926],
+    "coordinates": [
+      50.93801,
+      6.95926
+    ],
     "address": "Rathausplatz 2"
   },
   {
@@ -28,7 +37,10 @@
     "name": "Feuerwache 1 (Innenstadt)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.93375, 6.95388],
+    "coordinates": [
+      50.93375,
+      6.95388
+    ],
     "address": "Agrippastraße 18"
   },
   {
@@ -36,7 +48,10 @@
     "name": "Kölner Dom",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.94131, 6.95811],
+    "coordinates": [
+      50.94131,
+      6.95811
+    ],
     "address": "Domkloster 4"
   },
   {
@@ -44,7 +59,10 @@
     "name": "Köln Hauptbahnhof",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.94278, 6.95907],
+    "coordinates": [
+      50.94278,
+      6.95907
+    ],
     "address": "Trankgasse 11"
   },
   {
@@ -52,7 +70,10 @@
     "name": "Museum Ludwig",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9405, 6.962],
+    "coordinates": [
+      50.94061,
+      6.9598
+    ],
     "address": "Heinrich-Böll-Platz"
   },
   {
@@ -60,7 +81,10 @@
     "name": "Oper Köln (Staatenhaus)",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9393, 6.95],
+    "coordinates": [
+      50.93777,
+      6.95328
+    ],
     "address": "Offenbachplatz"
   },
   {
@@ -68,7 +92,10 @@
     "name": "Kundenzentrum Innenstadt",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9392, 6.9545],
+    "coordinates": [
+      50.9392,
+      6.9545
+    ],
     "address": "Laurenzplatz 1-3"
   },
   {
@@ -76,7 +103,10 @@
     "name": "AWO Arnold-Overzier-Haus",
     "type": "altenheim",
     "district": "altstadt-sued",
-    "coordinates": [50.9248, 6.9558],
+    "coordinates": [
+      50.9248,
+      6.9558
+    ],
     "address": "Severinswall 43"
   },
   {
@@ -84,7 +114,10 @@
     "name": "Clara-Elisen-Stift (Ev. Altenheim)",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.92632, 6.94987],
+    "coordinates": [
+      50.92632,
+      6.94987
+    ],
     "address": "Kartäuserwall 26"
   },
   {
@@ -92,7 +125,10 @@
     "name": "Verwaltungsgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-nord",
-    "coordinates": [50.9393, 6.9505],
+    "coordinates": [
+      50.9393,
+      6.9505
+    ],
     "address": "Appellhofplatz"
   },
   {
@@ -100,7 +136,10 @@
     "name": "Sparkasse KölnBonn (Hauptstelle)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.9378, 6.9555],
+    "coordinates": [
+      50.9378,
+      6.9555
+    ],
     "address": "Hahnenstraße 57"
   },
   {
@@ -108,7 +147,10 @@
     "name": "Schauspiel Köln",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9389, 6.9493],
+    "coordinates": [
+      50.9389,
+      6.9493
+    ],
     "address": "Offenbachplatz"
   },
   {
@@ -116,7 +158,10 @@
     "name": "Cellitinnen-Krankenhaus St. Marien",
     "type": "krankenhaus",
     "district": "altstadt-nord",
-    "coordinates": [50.94751, 6.96221],
+    "coordinates": [
+      50.94751,
+      6.96221
+    ],
     "address": "Kunibertskloster 11-13"
   },
   {
@@ -124,7 +169,10 @@
     "name": "Seniorenhaus St. Maria (Cellitinnen)",
     "type": "altenheim",
     "district": "altstadt-nord",
-    "coordinates": [50.938, 6.958],
+    "coordinates": [
+      50.94005,
+      6.94913
+    ],
     "address": "Schwalbengasse 3-5"
   },
   {
@@ -132,16 +180,21 @@
     "name": "Residenz am Dom (Seniorenresidenz)",
     "type": "altenheim",
     "district": "altstadt-nord",
-    "coordinates": [50.94319, 6.95414],
+    "coordinates": [
+      50.94319,
+      6.95414
+    ],
     "address": "An den Dominikanern 6-8"
   },
-
   {
     "id": "poi-gross-st-martin",
     "name": "Groß St. Martin",
     "type": "kirche",
     "district": "altstadt-nord",
-    "coordinates": [50.9376, 6.9614],
+    "coordinates": [
+      50.9376,
+      6.9614
+    ],
     "address": "An Groß St. Martin 9"
   },
   {
@@ -149,7 +202,10 @@
     "name": "St. Andreas",
     "type": "kirche",
     "district": "altstadt-nord",
-    "coordinates": [50.9407, 6.9536],
+    "coordinates": [
+      50.9407,
+      6.9536
+    ],
     "address": "Komödienstraße 6-8"
   },
   {
@@ -157,7 +213,10 @@
     "name": "St. Mariä Himmelfahrt",
     "type": "kirche",
     "district": "altstadt-nord",
-    "coordinates": [50.9399, 6.9534],
+    "coordinates": [
+      50.9399,
+      6.9534
+    ],
     "address": "Marzellenstraße 26"
   },
   {
@@ -165,7 +224,10 @@
     "name": "St. Ursula",
     "type": "kirche",
     "district": "altstadt-nord",
-    "coordinates": [50.9445, 6.953],
+    "coordinates": [
+      50.94571,
+      6.95434
+    ],
     "address": "Ursulaplatz 24"
   },
   {
@@ -173,7 +235,10 @@
     "name": "4711 Haus",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.9382, 6.949],
+    "coordinates": [
+      50.93863,
+      6.95121
+    ],
     "address": "Glockengasse 4"
   },
   {
@@ -181,7 +246,10 @@
     "name": "Gürzenich",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.9367, 6.9584],
+    "coordinates": [
+      50.9367,
+      6.9584
+    ],
     "address": "Martinstraße 29-37"
   },
   {
@@ -189,7 +257,10 @@
     "name": "Heinzelmännchenbrunnen",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.9393, 6.9569],
+    "coordinates": [
+      50.9393,
+      6.9569
+    ],
     "address": "Am Hof"
   },
   {
@@ -197,7 +268,10 @@
     "name": "Römisch-Germanisches Museum",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9408, 6.9597],
+    "coordinates": [
+      50.9408,
+      6.9597
+    ],
     "address": "Roncalliplatz 4"
   },
   {
@@ -205,7 +279,10 @@
     "name": "Wallraf-Richartz-Museum",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9383, 6.9585],
+    "coordinates": [
+      50.9383,
+      6.9585
+    ],
     "address": "Obenmarspforten 40"
   },
   {
@@ -213,7 +290,10 @@
     "name": "Kölner Philharmonie",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9408, 6.9617],
+    "coordinates": [
+      50.9408,
+      6.9617
+    ],
     "address": "Bischofsgartenstraße 1"
   },
   {
@@ -221,7 +301,10 @@
     "name": "NS-Dokumentationszentrum (EL-DE-Haus)",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9393, 6.9505],
+    "coordinates": [
+      50.9393,
+      6.9505
+    ],
     "address": "Appellhofplatz 23-25"
   },
   {
@@ -229,7 +312,10 @@
     "name": "Kolumba Kunstmuseum",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9386, 6.955],
+    "coordinates": [
+      50.93854,
+      6.95427
+    ],
     "address": "Kolumbastraße 4"
   },
   {
@@ -237,7 +323,10 @@
     "name": "Dreikönigsgymnasium",
     "type": "schule",
     "district": "altstadt-nord",
-    "coordinates": [50.9425, 6.9525],
+    "coordinates": [
+      50.9425,
+      6.9525
+    ],
     "address": "Escher Straße 247"
   },
   {
@@ -245,7 +334,10 @@
     "name": "Excelsior Hotel Ernst",
     "type": "hotel",
     "district": "altstadt-nord",
-    "coordinates": [50.9418, 6.9573],
+    "coordinates": [
+      50.9418,
+      6.9573
+    ],
     "address": "Domplatz/Trankgasse 1-5"
   },
   {
@@ -253,7 +345,10 @@
     "name": "Dom Hotel",
     "type": "hotel",
     "district": "altstadt-nord",
-    "coordinates": [50.9408, 6.9568],
+    "coordinates": [
+      50.9408,
+      6.9568
+    ],
     "address": "Domkloster 2a"
   },
   {
@@ -261,7 +356,10 @@
     "name": "WDR Arkaden",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.9396, 6.9515],
+    "coordinates": [
+      50.9396,
+      6.9515
+    ],
     "address": "Breite Straße"
   },
   {
@@ -269,7 +367,10 @@
     "name": "Hänneschen-Theater",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9369, 6.9606],
+    "coordinates": [
+      50.9369,
+      6.9606
+    ],
     "address": "Eisenmarkt 2-4"
   },
   {
@@ -277,7 +378,10 @@
     "name": "Zeughaus (Kölnisches Stadtmuseum)",
     "type": "kultur",
     "district": "altstadt-nord",
-    "coordinates": [50.9387, 6.9513],
+    "coordinates": [
+      50.9387,
+      6.9513
+    ],
     "address": "Zeughausstraße 1-3"
   },
   {
@@ -285,7 +389,10 @@
     "name": "Alter Markt",
     "type": "wahrzeichen",
     "district": "altstadt-nord",
-    "coordinates": [50.9383, 6.9608],
+    "coordinates": [
+      50.9383,
+      6.9608
+    ],
     "address": "Alter Markt"
   },
   {
@@ -293,16 +400,21 @@
     "name": "St. Gereon",
     "type": "kirche",
     "district": "altstadt-nord",
-    "coordinates": [50.9413, 6.9455],
+    "coordinates": [
+      50.9413,
+      6.9455
+    ],
     "address": "Gereonsdriesch 2"
   },
-
   {
     "id": "poi-st-maria-kapitol",
     "name": "St. Maria im Kapitol",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9335, 6.9596],
+    "coordinates": [
+      50.9335,
+      6.9596
+    ],
     "address": "Kasinostraße 6"
   },
   {
@@ -310,7 +422,10 @@
     "name": "St. Georg",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9342, 6.9486],
+    "coordinates": [
+      50.9342,
+      6.9486
+    ],
     "address": "Georgplatz/Waidmarkt"
   },
   {
@@ -318,7 +433,10 @@
     "name": "St. Maria Lyskirchen",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9308, 6.9618],
+    "coordinates": [
+      50.9308,
+      6.9618
+    ],
     "address": "An Lyskirchen 12"
   },
   {
@@ -326,7 +444,10 @@
     "name": "St. Severin",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9232, 6.9574],
+    "coordinates": [
+      50.9232,
+      6.9574
+    ],
     "address": "Severinskirchplatz 1"
   },
   {
@@ -334,7 +455,10 @@
     "name": "St. Pantaleon",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9285, 6.9425],
+    "coordinates": [
+      50.9285,
+      6.9425
+    ],
     "address": "Am Pantaleonsberg 2"
   },
   {
@@ -342,7 +466,10 @@
     "name": "St. Aposteln",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.9358, 6.9438],
+    "coordinates": [
+      50.9358,
+      6.9438
+    ],
     "address": "Neumarkt 30"
   },
   {
@@ -350,7 +477,10 @@
     "name": "Severinstor",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.9227, 6.9571],
+    "coordinates": [
+      50.9227,
+      6.9571
+    ],
     "address": "Chlodwigplatz"
   },
   {
@@ -358,7 +488,10 @@
     "name": "Bayenturm",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.9245, 6.964],
+    "coordinates": [
+      50.92374,
+      6.96694
+    ],
     "address": "Bayenstraße"
   },
   {
@@ -366,7 +499,10 @@
     "name": "Schokoladenmuseum",
     "type": "kultur",
     "district": "altstadt-sued",
-    "coordinates": [50.9318, 6.9643],
+    "coordinates": [
+      50.9318,
+      6.9643
+    ],
     "address": "Am Schokoladenmuseum 1a"
   },
   {
@@ -374,7 +510,10 @@
     "name": "Malakoff-Turm",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.932, 6.9655],
+    "coordinates": [
+      50.93271,
+      6.96364
+    ],
     "address": "Rheinauhafen"
   },
   {
@@ -382,7 +521,10 @@
     "name": "Friedrich-Wilhelm-Gymnasium",
     "type": "schule",
     "district": "altstadt-sued",
-    "coordinates": [50.929, 6.9508],
+    "coordinates": [
+      50.9363,
+      6.96058
+    ],
     "address": "Severinstraße 241"
   },
   {
@@ -390,7 +532,10 @@
     "name": "Kaiserin-Augusta-Schule",
     "type": "schule",
     "district": "altstadt-sued",
-    "coordinates": [50.9265, 6.948],
+    "coordinates": [
+      50.93544,
+      6.95955
+    ],
     "address": "Georgsplatz 10"
   },
   {
@@ -398,7 +543,10 @@
     "name": "Maritim Hotel Köln",
     "type": "hotel",
     "district": "altstadt-sued",
-    "coordinates": [50.9349, 6.9635],
+    "coordinates": [
+      50.9349,
+      6.9635
+    ],
     "address": "Heumarkt 20"
   },
   {
@@ -406,7 +554,10 @@
     "name": "Rautenstrauch-Joest-Museum",
     "type": "kultur",
     "district": "altstadt-sued",
-    "coordinates": [50.934, 6.943],
+    "coordinates": [
+      50.93434,
+      6.95055
+    ],
     "address": "Cäcilienstraße 29-33"
   },
   {
@@ -414,7 +565,10 @@
     "name": "MAKK (Museum für Angewandte Kunst)",
     "type": "kultur",
     "district": "altstadt-sued",
-    "coordinates": [50.9338, 6.9445],
+    "coordinates": [
+      50.9338,
+      6.9445
+    ],
     "address": "An der Rechtschule"
   },
   {
@@ -422,7 +576,10 @@
     "name": "Museum Schnütgen",
     "type": "kultur",
     "district": "altstadt-sued",
-    "coordinates": [50.934, 6.9435],
+    "coordinates": [
+      50.93479,
+      6.9515
+    ],
     "address": "Cäcilienstraße 29-33"
   },
   {
@@ -430,7 +587,10 @@
     "name": "Polizeipräsidium Köln (ehem. Waidmarkt)",
     "type": "oeffentliches_gebaeude",
     "district": "altstadt-sued",
-    "coordinates": [50.934, 6.954],
+    "coordinates": [
+      50.93148,
+      6.95562
+    ],
     "address": "Waidmarkt 11"
   },
   {
@@ -438,7 +598,10 @@
     "name": "Overstolzenhaus",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.9344, 6.958],
+    "coordinates": [
+      50.9341,
+      6.96044
+    ],
     "address": "Rheingasse 8"
   },
   {
@@ -446,7 +609,10 @@
     "name": "Deutsches Sport & Olympia Museum",
     "type": "kultur",
     "district": "altstadt-sued",
-    "coordinates": [50.9288, 6.9642],
+    "coordinates": [
+      50.9288,
+      6.9642
+    ],
     "address": "Im Zollhafen 1"
   },
   {
@@ -454,7 +620,10 @@
     "name": "Neumarkt Galerie",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.9348, 6.9466],
+    "coordinates": [
+      50.9348,
+      6.9466
+    ],
     "address": "Neumarkt 2"
   },
   {
@@ -462,7 +631,10 @@
     "name": "Hotel im Wasserturm",
     "type": "hotel",
     "district": "altstadt-sued",
-    "coordinates": [50.9318, 6.941],
+    "coordinates": [
+      50.93118,
+      6.95122
+    ],
     "address": "Kaygasse 2"
   },
   {
@@ -470,7 +642,10 @@
     "name": "Heumarkt",
     "type": "wahrzeichen",
     "district": "altstadt-sued",
-    "coordinates": [50.9355, 6.9615],
+    "coordinates": [
+      50.9355,
+      6.9615
+    ],
     "address": "Heumarkt"
   },
   {
@@ -478,16 +653,21 @@
     "name": "St. Peter (Kunststation)",
     "type": "kirche",
     "district": "altstadt-sued",
-    "coordinates": [50.933, 6.9575],
+    "coordinates": [
+      50.9342,
+      6.9521
+    ],
     "address": "Jabachstraße 1"
   },
-
   {
     "id": "poi-mediapark",
     "name": "MediaPark / Kölnturm",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9485, 6.9395],
+    "coordinates": [
+      50.9485,
+      6.9395
+    ],
     "address": "Im MediaPark 5"
   },
   {
@@ -495,7 +675,10 @@
     "name": "Hansahochhaus",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9465, 6.9445],
+    "coordinates": [
+      50.9465,
+      6.9445
+    ],
     "address": "Hansaring 97"
   },
   {
@@ -503,7 +686,10 @@
     "name": "Oberlandesgericht Köln",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-nord",
-    "coordinates": [50.948, 6.9465],
+    "coordinates": [
+      50.95466,
+      6.96238
+    ],
     "address": "Reichenspergerplatz 1"
   },
   {
@@ -511,7 +697,10 @@
     "name": "St. Agnes",
     "type": "kirche",
     "district": "neustadt-nord",
-    "coordinates": [50.948, 6.9455],
+    "coordinates": [
+      50.9549,
+      6.95741
+    ],
     "address": "Neusser Platz 18"
   },
   {
@@ -519,7 +708,10 @@
     "name": "Stadtgarten Köln",
     "type": "kultur",
     "district": "neustadt-nord",
-    "coordinates": [50.943, 6.9375],
+    "coordinates": [
+      50.94225,
+      6.93583
+    ],
     "address": "Venloer Straße 40"
   },
   {
@@ -527,7 +719,10 @@
     "name": "Comedia Theater",
     "type": "kultur",
     "district": "neustadt-nord",
-    "coordinates": [50.9425, 6.938],
+    "coordinates": [
+      50.92056,
+      6.95558
+    ],
     "address": "Vondelstraße 4-8"
   },
   {
@@ -535,7 +730,10 @@
     "name": "Apostelgymnasium",
     "type": "schule",
     "district": "neustadt-nord",
-    "coordinates": [50.9395, 6.9385],
+    "coordinates": [
+      50.9395,
+      6.9385
+    ],
     "address": "Biggestraße 2"
   },
   {
@@ -543,7 +741,10 @@
     "name": "Georg-Büchner-Gymnasium",
     "type": "schule",
     "district": "neustadt-nord",
-    "coordinates": [50.942, 6.939],
+    "coordinates": [
+      50.94289,
+      6.94886
+    ],
     "address": "Voßstraße 1"
   },
   {
@@ -551,7 +752,10 @@
     "name": "Gerling-Quartier",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.944, 6.9455],
+    "coordinates": [
+      50.94301,
+      6.94339
+    ],
     "address": "Gereonshof"
   },
   {
@@ -559,7 +763,10 @@
     "name": "Eigelsteintorburg",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.947, 6.952],
+    "coordinates": [
+      50.94931,
+      6.95687
+    ],
     "address": "Eigelstein"
   },
   {
@@ -567,7 +774,10 @@
     "name": "Fort X (Preußische Festung)",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.951, 6.942],
+    "coordinates": [
+      50.951,
+      6.942
+    ],
     "address": "Neusser Wall"
   },
   {
@@ -575,7 +785,10 @@
     "name": "Christuskirche (Evangelisch)",
     "type": "kirche",
     "district": "neustadt-nord",
-    "coordinates": [50.9445, 6.9395],
+    "coordinates": [
+      50.9445,
+      6.9395
+    ],
     "address": "Dorothee-Sölle-Platz"
   },
   {
@@ -583,7 +796,10 @@
     "name": "St. Gertrud",
     "type": "kirche",
     "district": "neustadt-nord",
-    "coordinates": [50.945, 6.941],
+    "coordinates": [
+      50.95173,
+      6.95178
+    ],
     "address": "Krefelder Straße 57"
   },
   {
@@ -591,7 +807,10 @@
     "name": "Oberfinanzdirektion Köln",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-nord",
-    "coordinates": [50.9475, 6.947],
+    "coordinates": [
+      50.94212,
+      6.95251
+    ],
     "address": "Riehler Platz"
   },
   {
@@ -599,7 +818,10 @@
     "name": "Skulpturenpark Köln",
     "type": "kultur",
     "district": "neustadt-nord",
-    "coordinates": [50.95, 6.9475],
+    "coordinates": [
+      50.95481,
+      6.97088
+    ],
     "address": "Riehler Straße"
   },
   {
@@ -607,7 +829,10 @@
     "name": "Pullman Cologne",
     "type": "hotel",
     "district": "neustadt-nord",
-    "coordinates": [50.9445, 6.9365],
+    "coordinates": [
+      50.9445,
+      6.9365
+    ],
     "address": "Helenenstraße 14"
   },
   {
@@ -615,7 +840,10 @@
     "name": "Hyatt Regency Köln",
     "type": "hotel",
     "district": "neustadt-nord",
-    "coordinates": [50.9475, 6.9385],
+    "coordinates": [
+      50.9475,
+      6.9385
+    ],
     "address": "Kennedy-Ufer 2a"
   },
   {
@@ -623,7 +851,10 @@
     "name": "Friesenplatz",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.942, 6.942],
+    "coordinates": [
+      50.94048,
+      6.93991
+    ],
     "address": "Friesenplatz"
   },
   {
@@ -631,7 +862,10 @@
     "name": "Colonius (Fernsehturm)",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9465, 6.9315],
+    "coordinates": [
+      50.9465,
+      6.9315
+    ],
     "address": "Innere Kanalstraße"
   },
   {
@@ -639,7 +873,10 @@
     "name": "Bezirksrathaus Innenstadt",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-nord",
-    "coordinates": [50.9425, 6.9455],
+    "coordinates": [
+      50.9425,
+      6.9455
+    ],
     "address": "Heliosstraße 63"
   },
   {
@@ -647,7 +884,10 @@
     "name": "Belgisches Viertel (Brüsseler Platz)",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9395, 6.935],
+    "coordinates": [
+      50.93809,
+      6.93406
+    ],
     "address": "Brüsseler Platz"
   },
   {
@@ -655,7 +895,10 @@
     "name": "Seniorenzentrum Hansaring",
     "type": "altenheim",
     "district": "neustadt-nord",
-    "coordinates": [50.946, 6.9435],
+    "coordinates": [
+      50.94659,
+      6.94551
+    ],
     "address": "Hansaring"
   },
   {
@@ -663,7 +906,10 @@
     "name": "WDR Funkhaus",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9435, 6.9455],
+    "coordinates": [
+      50.9435,
+      6.9455
+    ],
     "address": "Wallrafplatz"
   },
   {
@@ -671,7 +917,10 @@
     "name": "Montessori-Grundschule Gilbachstraße",
     "type": "schule",
     "district": "neustadt-nord",
-    "coordinates": [50.9415, 6.9365],
+    "coordinates": [
+      50.9415,
+      6.9365
+    ],
     "address": "Gilbachstraße 20"
   },
   {
@@ -679,16 +928,21 @@
     "name": "Ebertplatz",
     "type": "wahrzeichen",
     "district": "neustadt-nord",
-    "coordinates": [50.9485, 6.9505],
+    "coordinates": [
+      50.9485,
+      6.9505
+    ],
     "address": "Ebertplatz"
   },
-
   {
     "id": "poi-lutherkirche",
     "name": "Lutherkirche",
     "type": "kirche",
     "district": "neustadt-sued",
-    "coordinates": [50.928, 6.941],
+    "coordinates": [
+      50.91996,
+      6.95278
+    ],
     "address": "Martin-Luther-Platz 2"
   },
   {
@@ -696,7 +950,10 @@
     "name": "St. Paul",
     "type": "kirche",
     "district": "neustadt-sued",
-    "coordinates": [50.93, 6.9365],
+    "coordinates": [
+      50.92271,
+      6.9514
+    ],
     "address": "Pauliplatz"
   },
   {
@@ -704,7 +961,10 @@
     "name": "Trinitatiskirche",
     "type": "kirche",
     "district": "neustadt-sued",
-    "coordinates": [50.932, 6.935],
+    "coordinates": [
+      50.93339,
+      6.96074
+    ],
     "address": "Filzengraben 4"
   },
   {
@@ -712,7 +972,10 @@
     "name": "Volksgarten",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.922, 6.9385],
+    "coordinates": [
+      50.92113,
+      6.94669
+    ],
     "address": "Volksgartenstraße"
   },
   {
@@ -720,7 +983,10 @@
     "name": "Orangerie im Volksgarten",
     "type": "kultur",
     "district": "neustadt-sued",
-    "coordinates": [50.9225, 6.9395],
+    "coordinates": [
+      50.9225,
+      6.9395
+    ],
     "address": "Volksgartenstraße 25"
   },
   {
@@ -728,7 +994,10 @@
     "name": "Südstadion",
     "type": "kultur",
     "district": "neustadt-sued",
-    "coordinates": [50.918, 6.935],
+    "coordinates": [
+      50.91745,
+      6.94356
+    ],
     "address": "Vorgebirgsstraße"
   },
   {
@@ -736,7 +1005,10 @@
     "name": "Schiller-Gymnasium",
     "type": "schule",
     "district": "neustadt-sued",
-    "coordinates": [50.925, 6.934],
+    "coordinates": [
+      50.92347,
+      6.92931
+    ],
     "address": "Nikolausplatz 5"
   },
   {
@@ -744,7 +1016,10 @@
     "name": "Hildegard-von-Bingen-Gymnasium",
     "type": "schule",
     "district": "neustadt-sued",
-    "coordinates": [50.9265, 6.9355],
+    "coordinates": [
+      50.9265,
+      6.9355
+    ],
     "address": "Leyendeckerstraße 14"
   },
   {
@@ -752,7 +1027,10 @@
     "name": "Humboldt-Gymnasium",
     "type": "schule",
     "district": "neustadt-sued",
-    "coordinates": [50.924, 6.942],
+    "coordinates": [
+      50.9316,
+      6.94328
+    ],
     "address": "Kartäuserwall 40"
   },
   {
@@ -760,7 +1038,10 @@
     "name": "Bahnhof Köln Süd",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-sued",
-    "coordinates": [50.925, 6.938],
+    "coordinates": [
+      50.9331,
+      6.93497
+    ],
     "address": "Mozartstraße"
   },
   {
@@ -768,7 +1049,10 @@
     "name": "Barbarossaplatz",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.9285, 6.9395],
+    "coordinates": [
+      50.9285,
+      6.9395
+    ],
     "address": "Barbarossaplatz"
   },
   {
@@ -776,7 +1060,10 @@
     "name": "Rudolfplatz / Hahnentorburg",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.935, 6.9395],
+    "coordinates": [
+      50.93574,
+      6.94021
+    ],
     "address": "Rudolfplatz"
   },
   {
@@ -784,7 +1071,10 @@
     "name": "Aachener Weiher",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.934, 6.932],
+    "coordinates": [
+      50.93526,
+      6.92739
+    ],
     "address": "Aachener Straße"
   },
   {
@@ -792,7 +1082,10 @@
     "name": "Rhenania (Kulturfabrik)",
     "type": "kultur",
     "district": "neustadt-sued",
-    "coordinates": [50.921, 6.944],
+    "coordinates": [
+      50.93361,
+      6.94773
+    ],
     "address": "Bayardsgasse 9"
   },
   {
@@ -800,7 +1093,10 @@
     "name": "CBT-Wohnhaus Hildegard von Bingen",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.926, 6.936],
+    "coordinates": [
+      50.9318,
+      6.95756
+    ],
     "address": "Leyendeckerstraße"
   },
   {
@@ -808,7 +1104,10 @@
     "name": "Kölner Wohnungsbaugesellschaft (GAG)",
     "type": "oeffentliches_gebaeude",
     "district": "neustadt-sued",
-    "coordinates": [50.924, 6.938],
+    "coordinates": [
+      50.924,
+      6.938
+    ],
     "address": "Josef-Lammerting-Allee 20-22"
   },
   {
@@ -816,7 +1115,10 @@
     "name": "St. Elisabeth-Krankenhaus",
     "type": "krankenhaus",
     "district": "neustadt-sued",
-    "coordinates": [50.922, 6.935],
+    "coordinates": [
+      50.922,
+      6.935
+    ],
     "address": "Werthmannstraße 1"
   },
   {
@@ -824,7 +1126,10 @@
     "name": "Eifelplatz",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.927, 6.932],
+    "coordinates": [
+      50.92335,
+      6.94351
+    ],
     "address": "Eifelstraße"
   },
   {
@@ -832,7 +1137,10 @@
     "name": "Gymnasium Kreuzgasse",
     "type": "schule",
     "district": "neustadt-sued",
-    "coordinates": [50.932, 6.932],
+    "coordinates": [
+      50.94002,
+      6.9269
+    ],
     "address": "Vogelsanger Straße 1"
   },
   {
@@ -840,7 +1148,10 @@
     "name": "Südfriedhof (Melaten Süd)",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.919, 6.932],
+    "coordinates": [
+      50.91559,
+      6.94125
+    ],
     "address": "Höninger Weg"
   },
   {
@@ -848,7 +1159,10 @@
     "name": "Innerer Grüngürtel Süd",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.926, 6.93],
+    "coordinates": [
+      50.93867,
+      6.92805
+    ],
     "address": "Innerer Grüngürtel"
   },
   {
@@ -856,7 +1170,10 @@
     "name": "Sachsenring / Salierring",
     "type": "wahrzeichen",
     "district": "neustadt-sued",
-    "coordinates": [50.926, 6.945],
+    "coordinates": [
+      50.92526,
+      6.94995
+    ],
     "address": "Sachsenring"
   },
   {
@@ -864,7 +1181,10 @@
     "name": "Seniorenheim Am Chlodwigplatz",
     "type": "altenheim",
     "district": "neustadt-sued",
-    "coordinates": [50.923, 6.948],
+    "coordinates": [
+      50.92156,
+      6.95948
+    ],
     "address": "Chlodwigplatz"
   }
 ]
