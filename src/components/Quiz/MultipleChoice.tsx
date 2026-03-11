@@ -58,7 +58,11 @@ export function MultipleChoice({ streets, districts }: MultipleChoiceProps) {
         districts={districts}
       />
       <div className="quiz-panel">
-        <div className="question-text">Welche Straße ist hier markiert?</div>
+        <div className="question-text">
+          {q?.targetStreet.category === "nahverkehr"
+            ? "Welche Haltestelle ist hier markiert?"
+            : "Welche Straße ist hier markiert?"}
+        </div>
 
         <div className="mc-options">
           {q?.choices?.map((choice) => {

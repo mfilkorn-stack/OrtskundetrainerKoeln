@@ -1,0 +1,184 @@
+[
+  {
+    "id": "nv-an-1",
+    "name": "Dom/Hbf",
+    "district": "altstadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9425, 6.9580]
+  },
+  {
+    "id": "nv-an-2",
+    "name": "Breslauer Platz/Hbf",
+    "district": "altstadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9443, 6.9615]
+  },
+  {
+    "id": "nv-an-3",
+    "name": "Appellhofplatz/Zeughaus",
+    "district": "altstadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9393, 6.9500]
+  },
+  {
+    "id": "nv-an-4",
+    "name": "Rathaus",
+    "district": "altstadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9385, 6.9595]
+  },
+  {
+    "id": "nv-an-5",
+    "name": "Köln Hbf",
+    "district": "altstadt-nord",
+    "stationType": "db",
+    "coordinates": [50.9433, 6.9590]
+  },
+  {
+    "id": "nv-as-1",
+    "name": "Neumarkt",
+    "district": "altstadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9355, 6.9500]
+  },
+  {
+    "id": "nv-as-2",
+    "name": "Heumarkt",
+    "district": "altstadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9365, 6.9610]
+  },
+  {
+    "id": "nv-as-3",
+    "name": "Poststraße",
+    "district": "altstadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9330, 6.9505]
+  },
+  {
+    "id": "nv-as-4",
+    "name": "Severinstraße",
+    "district": "altstadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9285, 6.9580]
+  },
+  {
+    "id": "nv-as-5",
+    "name": "Kartäuserhof",
+    "district": "altstadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9280, 6.9490]
+  },
+  {
+    "id": "nv-as-6",
+    "name": "Severinskirche",
+    "district": "altstadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9305, 6.9560]
+  },
+  {
+    "id": "nv-as-7",
+    "name": "Ubierring",
+    "district": "altstadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9265, 6.9565]
+  },
+  {
+    "id": "nv-nn-1",
+    "name": "Friesenplatz",
+    "district": "neustadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9400, 6.9420]
+  },
+  {
+    "id": "nv-nn-2",
+    "name": "Christophstr./Mediapark",
+    "district": "neustadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9430, 6.9440]
+  },
+  {
+    "id": "nv-nn-3",
+    "name": "Ebertplatz",
+    "district": "neustadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9460, 6.9500]
+  },
+  {
+    "id": "nv-nn-4",
+    "name": "Hansaring",
+    "district": "neustadt-nord",
+    "stationType": "s-bahn",
+    "coordinates": [50.9470, 6.9460]
+  },
+  {
+    "id": "nv-nn-5",
+    "name": "Reichenspergerplatz",
+    "district": "neustadt-nord",
+    "stationType": "u-bahn",
+    "coordinates": [50.9475, 6.9505]
+  },
+  {
+    "id": "nv-ns-1",
+    "name": "Rudolfplatz",
+    "district": "neustadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9358, 6.9400]
+  },
+  {
+    "id": "nv-ns-2",
+    "name": "Barbarossaplatz",
+    "district": "neustadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9280, 6.9405]
+  },
+  {
+    "id": "nv-ns-3",
+    "name": "Zülpicher Platz",
+    "district": "neustadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9310, 6.9365]
+  },
+  {
+    "id": "nv-ns-4",
+    "name": "Chlodwigplatz",
+    "district": "neustadt-sued",
+    "stationType": "u-bahn",
+    "coordinates": [50.9240, 6.9440]
+  },
+  {
+    "id": "nv-ns-5",
+    "name": "Eifelplatz",
+    "district": "neustadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9240, 6.9345]
+  },
+  {
+    "id": "nv-ns-6",
+    "name": "Ulrepforte",
+    "district": "neustadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9260, 6.9440]
+  },
+  {
+    "id": "nv-ns-7",
+    "name": "Volksgarten",
+    "district": "neustadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9220, 6.9370]
+  },
+  {
+    "id": "nv-ns-8",
+    "name": "Köln Süd",
+    "district": "neustadt-sued",
+    "stationType": "db",
+    "coordinates": [50.9270, 6.9400]
+  },
+  {
+    "id": "nv-ns-9",
+    "name": "Dasselstr./Bf. Süd",
+    "district": "neustadt-sued",
+    "stationType": "stadtbahn",
+    "coordinates": [50.9260, 6.9360]
+  }
+]

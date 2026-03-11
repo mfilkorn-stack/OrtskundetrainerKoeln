@@ -1,20 +1,20 @@
 export type District = "altstadt-nord" | "altstadt-sued" | "neustadt-nord" | "neustadt-sued";
 
-export type StreetCategory = "hauptverkehr" | "sonstige";
+export type StreetCategory = "hauptverkehr" | "sonstige" | "nahverkehr";
 
 export interface Street {
   id: string;
   name: string;
   district: District;
   category: StreetCategory;
-  geometry: GeoJSON.LineString | GeoJSON.MultiLineString;
+  geometry: GeoJSON.LineString | GeoJSON.MultiLineString | GeoJSON.Point;
   center: [number, number]; // [lat, lng]
 }
 
 export interface PointOfInterest {
   id: string;
   name: string;
-  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude";
+  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude" | "schule" | "kirche" | "kultur" | "wahrzeichen" | "hotel";
   district: District;
   coordinates: [number, number]; // [lat, lng]
   address?: string;

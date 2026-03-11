@@ -60,7 +60,11 @@ export function MapToName({ streets, districts }: MapToNameProps) {
         districts={districts}
       />
       <div className="quiz-panel">
-        <div className="question-text">Wie heißt die markierte Straße?</div>
+        <div className="question-text">
+          {q?.targetStreet.category === "nahverkehr"
+            ? "Wie heißt die markierte Haltestelle?"
+            : "Wie heißt die markierte Straße?"}
+        </div>
 
         {!state.answered && (
           <div className="autocomplete-wrapper">
