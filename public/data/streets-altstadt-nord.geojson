@@ -1060,8 +1060,8 @@
       "properties": {
         "id": "an-4",
         "name": "Am Hof",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -1342,8 +1342,8 @@
       "properties": {
         "id": "an-5",
         "name": "Unter Fettenhennen",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "pedestrian",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",
@@ -2230,8 +2230,8 @@
       "properties": {
         "id": "an-11",
         "name": "Domstraße",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",
@@ -2332,8 +2332,8 @@
       "properties": {
         "id": "an-12",
         "name": "An den Dominikanern",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",

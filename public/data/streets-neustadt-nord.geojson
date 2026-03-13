@@ -7666,8 +7666,8 @@
       "properties": {
         "id": "nn-37",
         "name": "Im Mediapark",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "MultiLineString",

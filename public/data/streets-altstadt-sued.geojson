@@ -740,8 +740,8 @@
       "properties": {
         "id": "as-5",
         "name": "Große Sandkaul",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -1426,8 +1426,8 @@
       "properties": {
         "id": "as-8",
         "name": "Im Ferkulum",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",
@@ -6702,8 +6702,8 @@
       "properties": {
         "id": "as-44",
         "name": "Hohe Pforte",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "residential",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",
