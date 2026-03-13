@@ -2196,60 +2196,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "as-13",
-        "name": "Kleine Budengasse",
-        "highway": "secondary",
-        "category": "hauptverkehr"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            6.9581201,
-            50.9391572
-          ],
-          [
-            6.9582377,
-            50.9391446
-          ],
-          [
-            6.9586408,
-            50.9391273
-          ],
-          [
-            6.9586943,
-            50.9391264
-          ],
-          [
-            6.9588263,
-            50.93913
-          ],
-          [
-            6.959066,
-            50.9391355
-          ],
-          [
-            6.9591217,
-            50.9391394
-          ],
-          [
-            6.9592242,
-            50.9391488
-          ],
-          [
-            6.9593199,
-            50.9391654
-          ],
-          [
-            6.9593993,
-            50.9391886
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "as-14",
         "name": "Agrippastraße",
         "highway": "secondary",
