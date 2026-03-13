@@ -1342,8 +1342,8 @@
       "properties": {
         "id": "an-5",
         "name": "Unter Fettenhennen",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "pedestrian",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "LineString",
