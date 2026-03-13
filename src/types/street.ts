@@ -14,7 +14,7 @@ export interface Street {
 export interface PointOfInterest {
   id: string;
   name: string;
-  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude";
+  type: "krankenhaus" | "altenheim" | "oeffentliches_gebaeude" | "schule" | "kirche" | "kultur" | "wahrzeichen" | "hotel";
   district: District;
   coordinates: [number, number]; // [lat, lng]
   address?: string;
@@ -30,5 +30,5 @@ export const DISTRICT_LABELS: Record<District, string> = {
 export const FEUERWACHE_1 = {
   name: "Feuerwache 1",
   address: "Agrippastraße 18, 50676 Köln",
-  coordinates: [50.93375, 6.95388] as [number, number],
+  coordinates: [50.93294, 6.95049] as [number, number],
 };

@@ -222,7 +222,7 @@ export function QuizMap({
           ) : (
             <Polyline
               positions={toLeafletPositions(highlightStreet.geometry as GeoJSON.LineString | GeoJSON.MultiLineString)}
-              pathOptions={{ color: highlightColor, weight: 6, opacity: 0.8 }}
+              pathOptions={{ color: highlightColor, weight: 14, opacity: 1.0 }}
             />
           )
         )}
