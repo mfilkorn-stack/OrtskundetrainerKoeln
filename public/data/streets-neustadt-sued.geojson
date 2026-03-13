@@ -10366,8 +10366,8 @@
       "properties": {
         "id": "ns-42",
         "name": "Zülpicher Platz",
-        "highway": "secondary",
-        "category": "hauptverkehr"
+        "highway": "tertiary",
+        "category": "sonstige"
       },
       "geometry": {
         "type": "MultiLineString",
